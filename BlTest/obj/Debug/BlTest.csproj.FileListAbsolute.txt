@@ -1,0 +1,5 @@
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BlTest\obj\Debug\BlTest.csproj.AssemblyReference.cache
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BlTest\obj\Debug\BlTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BlTest\obj\Debug\BlTest.AssemblyInfoInputs.cache
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BlTest\obj\Debug\BlTest.AssemblyInfo.cs
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BlTest\obj\Debug\BlTest.csproj.CoreCompileInputs.cache

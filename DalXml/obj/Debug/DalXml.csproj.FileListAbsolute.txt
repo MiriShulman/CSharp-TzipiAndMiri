@@ -1,0 +1,35 @@
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\bin\DalXml.deps.json
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\bin\DalXml.dll
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\bin\DalXml.pdb
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalXml\obj\Debug\DalXml.csproj.Up2Date
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalXml\obj\Debug\DalXml.dll
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalXml\obj\Debug\refint\DalXml.dll
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalXml\obj\Debug\DalXml.pdb
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalXml\obj\Debug\ref\DalXml.dll
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.dll
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\refint\DalXml.dll
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\bin\DalXml.deps.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\bin\DalXml.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\bin\DalXml.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.sourcelink.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.csproj.CopyComplete
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\refint\DalXml.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\ref\DalXml.dll

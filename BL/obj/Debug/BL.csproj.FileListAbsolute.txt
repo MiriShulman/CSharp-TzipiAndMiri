@@ -1,0 +1,10 @@
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\BL\obj\Debug\BL.AssemblyInfo.cs
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BL\obj\Debug\BL.AssemblyInfo.cs
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache

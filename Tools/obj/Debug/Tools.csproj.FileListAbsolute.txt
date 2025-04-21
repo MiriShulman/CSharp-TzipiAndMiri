@@ -1,0 +1,56 @@
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\bin\Tools.deps.json
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\bin\Tools.dll
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\bin\Tools.pdb
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\Tools.AssemblyInfo.cs
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\Tools.dll
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\refint\Tools.dll
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\Tools.pdb
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\ref\Tools.dll
+D:\יד\C#\‏‏DotNet2025_3565_6776\bin\Tools.deps.json
+D:\יד\C#\‏‏DotNet2025_3565_6776\bin\Tools.dll
+D:\יד\C#\‏‏DotNet2025_3565_6776\bin\Tools.pdb
+D:\יד\C#\‏‏DotNet2025_3565_6776\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+D:\יד\C#\‏‏DotNet2025_3565_6776\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+D:\יד\C#\‏‏DotNet2025_3565_6776\Tools\obj\Debug\Tools.AssemblyInfo.cs
+D:\יד\C#\‏‏DotNet2025_3565_6776\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+D:\יד\C#\‏‏DotNet2025_3565_6776\Tools\obj\Debug\Tools.dll
+D:\יד\C#\‏‏DotNet2025_3565_6776\Tools\obj\Debug\refint\Tools.dll
+D:\יד\C#\‏‏DotNet2025_3565_6776\Tools\obj\Debug\Tools.pdb
+D:\יד\C#\‏‏DotNet2025_3565_6776\Tools\obj\Debug\ref\Tools.dll
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\bin\Tools.deps.json
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\bin\Tools.dll
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\bin\Tools.pdb
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\Tools.AssemblyInfo.cs
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\Tools.dll
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\refint\Tools.dll
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\Tools.pdb
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\Tools\obj\Debug\ref\Tools.dll
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\bin\Tools.deps.json
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\bin\Tools.dll
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\bin\Tools.pdb
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\Tools.AssemblyInfo.cs
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\Tools.dll
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\refint\Tools.dll
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\Tools.pdb
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\ref\Tools.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\bin\Tools.deps.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\bin\Tools.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\bin\Tools.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\Tools.AssemblyInfo.cs
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\Tools.sourcelink.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\Tools.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\refint\Tools.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\Tools.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\Tools\obj\Debug\ref\Tools.dll

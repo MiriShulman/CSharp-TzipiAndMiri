@@ -1,0 +1,80 @@
+Z:\B\שולמן מירי\c#\DotNet2025_3565_6776\bin\DalList.deps.json
+Z:\B\שולמן מירי\c#\DotNet2025_3565_6776\bin\DalList.dll
+Z:\B\שולמן מירי\c#\DotNet2025_3565_6776\bin\DalList.pdb
+Z:\B\שולמן מירי\c#\DotNet2025_3565_6776\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+Z:\B\שולמן מירי\c#\DotNet2025_3565_6776\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\שולמן מירי\c#\DotNet2025_3565_6776\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+Z:\B\שולמן מירי\c#\DotNet2025_3565_6776\DalList\obj\Debug\DalList.AssemblyInfo.cs
+Z:\B\שולמן מירי\c#\DotNet2025_3565_6776\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+Z:\B\שולמן מירי\c#\DotNet2025_3565_6776\DalList\obj\Debug\DalList.csproj.CopyComplete
+Z:\B\שולמן מירי\c#\DotNet2025_3565_6776\DalList\obj\Debug\DalList.dll
+Z:\B\שולמן מירי\c#\DotNet2025_3565_6776\DalList\obj\Debug\refint\DalList.dll
+Z:\B\שולמן מירי\c#\DotNet2025_3565_6776\DalList\obj\Debug\DalList.pdb
+Z:\B\שולמן מירי\c#\DotNet2025_3565_6776\DalList\obj\Debug\ref\DalList.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\DotNet2025_3565_6776\bin\DalList.deps.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\DotNet2025_3565_6776\bin\DalList.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\DotNet2025_3565_6776\bin\DalList.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\DotNet2025_3565_6776\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\DotNet2025_3565_6776\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\DotNet2025_3565_6776\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\DotNet2025_3565_6776\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\DotNet2025_3565_6776\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\DotNet2025_3565_6776\DalList\obj\Debug\DalList.csproj.CopyComplete
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\DotNet2025_3565_6776\DalList\obj\Debug\DalList.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\DotNet2025_3565_6776\DalList\obj\Debug\refint\DalList.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\DotNet2025_3565_6776\DalList\obj\Debug\DalList.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\DotNet2025_3565_6776\DalList\obj\Debug\ref\DalList.dll
+Z:\B\שולמן מירי\c#\project\‏‏DotNet2025_3565_6776 - עותק\bin\DalList.deps.json
+Z:\B\שולמן מירי\c#\project\‏‏DotNet2025_3565_6776 - עותק\bin\DalList.dll
+Z:\B\שולמן מירי\c#\project\‏‏DotNet2025_3565_6776 - עותק\bin\DalList.pdb
+Z:\B\שולמן מירי\c#\project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+Z:\B\שולמן מירי\c#\project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\שולמן מירי\c#\project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+Z:\B\שולמן מירי\c#\project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.AssemblyInfo.cs
+Z:\B\שולמן מירי\c#\project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+Z:\B\שולמן מירי\c#\project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.csproj.CopyComplete
+Z:\B\שולמן מירי\c#\project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.dll
+Z:\B\שולמן מירי\c#\project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\refint\DalList.dll
+Z:\B\שולמן מירי\c#\project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.pdb
+Z:\B\שולמן מירי\c#\project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\ref\DalList.dll
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\bin\DalList.deps.json
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\bin\DalList.dll
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\bin\DalList.pdb
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.csproj.CopyComplete
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.dll
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\refint\DalList.dll
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.pdb
+C:\Users\1\Desktop\c#-project\‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\ref\DalList.dll
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\bin\DalList.cs
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\bin\DalList.deps.json
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\bin\DalList.dll
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\bin\DalList.pdb
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.AssemblyInfo.cs
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.csproj.Up2Date
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.dll
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\refint\DalList.dll
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\DalList.pdb
+Z:\B\שולמן מירי\c#\‏‏‏‏DotNet2025_3565_6776 - עותק\DalList\obj\Debug\ref\DalList.dll
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\bin\DalList.cs
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\bin\DalList.deps.json
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\bin\DalList.dll
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\bin\DalList.pdb
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalList\obj\Debug\DalList.AssemblyInfo.cs
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalList\obj\Debug\DalList.csproj.CopyComplete
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalList\obj\Debug\DalList.dll
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalList\obj\Debug\refint\DalList.dll
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalList\obj\Debug\DalList.pdb
+D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalList\obj\Debug\ref\DalList.dll
