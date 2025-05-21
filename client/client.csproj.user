@@ -13,7 +13,13 @@
     <Compile Update="delete.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="enter.cs">
+    <Compile Update="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="isCustomerExist.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="options.cs">
@@ -23,6 +29,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ReadAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="saleMan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SearchSaleForProduct.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Update.cs">

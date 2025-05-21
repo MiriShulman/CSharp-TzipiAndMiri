@@ -5,10 +5,11 @@ using System.ComponentModel;
 namespace Dal { 
     internal sealed class DalList : IDal
     {
-        public static DalList Instance { get; } = new DalList();
+        public static readonly DalList instance = new DalList();
+        public static DalList Instance { get { return instance; } }
+        public Icustomer Customer => new CustomerImplementation();
+        public Isale Sale => new SaleImplementation();
+        public Iproduct Product => new ProductImplementation();
         private DalList() { }
-        public Icustomer customer => new CustomerImplementation();
-        public Isale sale => new SaleImplementation();
-        public Iproduct product => new ProductImplementation();
     }
 }

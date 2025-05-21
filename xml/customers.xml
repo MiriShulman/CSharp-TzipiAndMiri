@@ -1,2 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfCustomers></ArrayOfCustomers>
+<ArrayOfCustomers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <id>328189378</id>
+    <name>Bati Mandel</name>
+    <address>Avnei Nezer 12</address>
+    <phone>0548574418</phone>
+  </Customer>
+  <Customer>
+    <id>547556</id>
+    <name>'[;ui]'</name>
+    <address>Rabbi Yehudah Habbasie</address>
+    <phone>0534126521</phone>
+  </Customer>
+  <Customer>
+    <id>321456</id>
+    <name>r75e</name>
+    <address>Sdey Chemed</address>
+    <phone>0527612265</phone>
+  </Customer>
+  <Customer>
+    <id>64511</id>
+    <name>ghvc j</name>
+    <address>Avney Nezer</address>
+    <phone>0534126522</phone>
+  </Customer>
+  <Customer>
+    <id>114856</id>
+    <name>djm</name>
+    <address>Netivot Hamishpat</address>
+    <phone>0556726659</phone>
+  </Customer>
+  <Customer>
+    <id>86212</id>
+    <name>yup</name>
+    <address>Netivot Hamishpat</address>
+    <phone>0556718372</phone>
+  </Customer>
+</ArrayOfCustomers>

@@ -11,7 +11,7 @@ internal class ImplementationCustomer : ICustomer
     {
         try
         {
-            return _dal.customer.Create(CastCustomer(customer));
+            return _dal.Customer.Create(CastCustomer(customer));
         }
         catch (Exception e)
         {
@@ -24,7 +24,7 @@ internal class ImplementationCustomer : ICustomer
     {
         try
         {
-            return _dal.customer.Read(id).CastCustomer();
+            return _dal.Customer.Read(id).CastCustomer();
         }
         catch (Exception ex)
         {
@@ -37,54 +37,67 @@ internal class ImplementationCustomer : ICustomer
     {
         try
         {
-            return _dal.customer.ReadAll(c => filter(c.CastCustomer()))
+            return _dal.Customer.ReadAll(c => filter(c.CastCustomer()))
                 .Select(c => c.CastCustomer()).ToList();
-        } catch (Exception ex)
+        }
+        catch (Exception ex)
         {
             throw ex;
         }
     }
-    
+
     //Updates entity object
     public void Update(BO.Customer c)
     {
         try
         {
-            _dal.customer.Update(CastCustomer(c));
-        } catch (Exception e)
+            _dal.Customer.Update(CastCustomer(c));
+        }
+        catch (Exception e)
         {
             throw e;
         }
     }
-    
+
     //Deletes an object by its Id
     public void Delete(int id)
     {
         try
         {
-            _dal.customer.Delete(id);
-        } catch (Exception e)
+            _dal.Customer.Delete(id);
+        }
+        catch (Exception e)
         {
             throw e;
         }
     }
-    
+
     //stage 2
     public BO.Customer? Read(Func<BO.Customer, bool> filter)
     {
         try
         {
-            return _dal.customer.Read(c => filter(c.CastCustomer()))?.CastCustomer();
+            return _dal.Customer.Read(c => filter(c.CastCustomer()))?.CastCustomer();
         }
-        catch (Exception e) {
+        catch (Exception e)
+        {
             throw e;
         }
-   
-    }
-    
-    public bool IsCustomerExist(int id)
-    {
-        throw new NotImplementedException();
+
     }
 
+    public bool IsCustomerExist(int id)
+    {
+        try
+        {
+            if (_dal.Customer.ReadAll().FirstOrDefault(c => c.id == id) == null)
+                return false;
+            return true;
+        }
+        catch (Exception e)
+        {
+            throw e;
+        }
+
+    }
 }

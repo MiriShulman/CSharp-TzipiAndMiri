@@ -32,18 +32,20 @@ internal class SaleImplementation : Isale
             xml = XElement.Load(path);
             String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
             String method = MethodBase.GetCurrentMethod().Name;
-            Tools.LogManager.WriteToFile(progName, method, "begin");
+            Tools.LogManager.WriteToLog(progName, method, "begin");
             Sale s = item with { id = Config.GetSaleCode() };
             xml.Add(CastSaleToXElement(s));
+            Console.WriteLine(s);
+
             xml.Save(path);
-            Tools.LogManager.WriteToFile(progName, method, "end");
+            Tools.LogManager.WriteToLog(progName, method, "end");
             return s.id;
         }
         catch
         {
             String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
             String method = MethodBase.GetCurrentMethod().Name;
-            Tools.LogManager.WriteToFile(progName, method, "error");
+            Tools.LogManager.WriteToLog(progName, method, "error");
             throw new DalIdAlreadyExist("this id is been exist");
         }
     }
@@ -54,9 +56,9 @@ internal class SaleImplementation : Isale
         xml = XElement.Load(path);
         String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
         String method = MethodBase.GetCurrentMethod().Name;
-        Tools.LogManager.WriteToFile(progName, method, "begin");
+        Tools.LogManager.WriteToLog(progName, method, "begin");
         xml.Elements().FirstOrDefault(e => (int)e.Element(ID) == id)?.Remove();
-        Tools.LogManager.WriteToFile(progName, method, "end");
+        Tools.LogManager.WriteToLog(progName, method, "end");
     }
     public Sale? Read(int id)
     {
@@ -67,16 +69,16 @@ internal class SaleImplementation : Isale
             xml = XElement.Load(path);
             String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
             String method = MethodBase.GetCurrentMethod().Name;
-            Tools.LogManager.WriteToFile(progName, method, "begin");
+            Tools.LogManager.WriteToLog(progName, method, "begin");
             Sale s = GetSalesList().FirstOrDefault(e => e.id == id);
-            Tools.LogManager.WriteToFile(progName, method, "end");
+            Tools.LogManager.WriteToLog(progName, method, "end");
             return s;
         }
         catch
         {
             String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
             String method = MethodBase.GetCurrentMethod().Name;
-            Tools.LogManager.WriteToFile(progName, method, "error");
+            Tools.LogManager.WriteToLog(progName, method, "error");
             throw new DalIdNotExist("this id is not exist");
         }
     }
@@ -89,15 +91,15 @@ internal class SaleImplementation : Isale
             xml = XElement.Load(path);
             String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
             String method = MethodBase.GetCurrentMethod().Name;
-            Tools.LogManager.WriteToFile(progName, method, "begin");
-            Tools.LogManager.WriteToFile(progName, method, "end");
+            Tools.LogManager.WriteToLog(progName, method, "begin");
+            Tools.LogManager.WriteToLog(progName, method, "end");
             return GetSalesList().First(filter);
         }
         catch
         {
             String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
             String method = MethodBase.GetCurrentMethod().Name;
-            Tools.LogManager.WriteToFile(progName, method, "error");
+            Tools.LogManager.WriteToLog(progName, method, "error");
             throw new DalIdNotExist("this id or another something is not exist");
         }
     }
@@ -105,8 +107,8 @@ internal class SaleImplementation : Isale
     {
         String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
         String method = MethodBase.GetCurrentMethod().Name;
-        Tools.LogManager.WriteToFile(progName, method, "begin");
-        Tools.LogManager.WriteToFile(progName, method, "end");
+        Tools.LogManager.WriteToLog(progName, method, "begin");
+        Tools.LogManager.WriteToLog(progName, method, "end");
         List<Sale> sales = GetSalesList();
         return sales;
     }
@@ -114,7 +116,7 @@ internal class SaleImplementation : Isale
     {
         String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
         String method = MethodBase.GetCurrentMethod().Name;
-        Tools.LogManager.WriteToFile(progName, method, "error");
+        Tools.LogManager.WriteToLog(progName, method, "error");
         List<Sale> sales = GetSalesList();
         if (filter == null)
             return sales;
@@ -127,10 +129,10 @@ internal class SaleImplementation : Isale
         xml = XElement.Load(path);
         String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
         String method = MethodBase.GetCurrentMethod().Name;
-        Tools.LogManager.WriteToFile(progName, method, "begin");
+        Tools.LogManager.WriteToLog(progName, method, "begin");
         Delete(item.id);
         xml.Add(CastSaleToXElement(item));
-        Tools.LogManager.WriteToFile(progName, method, "end");
+        Tools.LogManager.WriteToLog(progName, method, "end");
     }
     public List<Sale> GetSalesList()
     {

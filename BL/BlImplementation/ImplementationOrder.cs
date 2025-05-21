@@ -15,7 +15,7 @@ internal class ImplementationOrder
         {
             if (IsPreferredCustomer)
             {
-                product.SalesInProducts = (from sale in _dal.sale.ReadAll()
+                product.SalesInProducts = (from sale in _dal.Sale.ReadAll()
                                          where sale.code == product.ProductId &&
                                          sale.beginSale > DateTime.Now && sale.endSale < DateTime.Now
                                          && product.ProductAmount >= sale.minimumAmount
@@ -24,7 +24,7 @@ internal class ImplementationOrder
             }
             else
             {
-                product.SalesInProducts = (from sale in _dal.sale.ReadAll()
+                product.SalesInProducts = (from sale in _dal.Sale.ReadAll()
                                          where sale.id == product.ProductId &&
                                          sale.beginSale > DateTime.Now && sale.endSale < DateTime.Now
                                          && product.ProductAmount >= sale.minimumAmount
@@ -84,7 +84,7 @@ internal class ImplementationOrder
     {
         try
         {
-            DO.Product product = _dal.product.Read(ProductId);
+            DO.Product product = _dal.Product.Read(ProductId);
             BO.ProductInOrder p = order.ProductsInOrder.FirstOrDefault(p => p.ProductId == ProductId);
             if (p != null)
             {
@@ -124,9 +124,9 @@ internal class ImplementationOrder
         {
             foreach (ProductInOrder prod in order.ProductsInOrder!)
             {
-                BO.Product product = _dal.product.Read(prod.ProductId)!.CastProduct();
+                BO.Product product = _dal.Product.Read(prod.ProductId)!.CastProduct();
                 product.Amount -= prod.ProductAmount;
-                _dal.product.Update(CastProduct(product));
+                _dal.Product.Update(CastProduct(product));
             }
         }
         catch (Exception e)

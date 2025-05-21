@@ -8,3 +8,17 @@ D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BL\obj\Debug\BL.Gener
 D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BL\obj\Debug\BL.AssemblyInfoInputs.cache
 D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BL\obj\Debug\BL.AssemblyInfo.cs
 D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.AssemblyInfo.cs
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.sourcelink.json
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\BL.deps.json
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\BL.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\BL.pdb
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.csproj.Up2Date
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BL\obj\Debug\refint\BL.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.pdb
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BL\obj\Debug\ref\BL.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DalXml")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b065f8192ce686aceed4dc10dc543ec74b7d714")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+202fd51691c9d3e8fe3f58d98d4de1b387961dca")]
 [assembly: System.Reflection.AssemblyProductAttribute("DalXml")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DalXml")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

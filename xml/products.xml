@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ArrayOfProducts></ArrayOfProducts>
+<ArrayOfProducts>
+	<Product>
+		<identity>173</identity>
+		<name>Birthday Cake</name>
+		<price>29.99</price>
+		<amount>10</amount>
+		<c>birthdayCakes</c>
+	</Product>
+</ArrayOfProducts>

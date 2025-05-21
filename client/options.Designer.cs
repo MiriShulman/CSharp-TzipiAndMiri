@@ -37,9 +37,10 @@
             // 
             // create
             // 
-            create.Location = new Point(605, 138);
+            create.Location = new Point(84, 107);
+            create.Margin = new Padding(5, 3, 5, 3);
             create.Name = "create";
-            create.Size = new Size(94, 29);
+            create.Size = new Size(200, 88);
             create.TabIndex = 0;
             create.Text = "create";
             create.UseVisualStyleBackColor = true;
@@ -47,9 +48,10 @@
             // 
             // update
             // 
-            update.Location = new Point(386, 192);
+            update.Location = new Point(220, 239);
+            update.Margin = new Padding(5, 3, 5, 3);
             update.Name = "update";
-            update.Size = new Size(94, 29);
+            update.Size = new Size(200, 88);
             update.TabIndex = 1;
             update.Text = "update";
             update.UseVisualStyleBackColor = true;
@@ -57,9 +59,10 @@
             // 
             // readAll
             // 
-            readAll.Location = new Point(422, 92);
+            readAll.Location = new Point(619, 107);
+            readAll.Margin = new Padding(5, 3, 5, 3);
             readAll.Name = "readAll";
-            readAll.Size = new Size(94, 29);
+            readAll.Size = new Size(200, 88);
             readAll.TabIndex = 2;
             readAll.Text = "readAll";
             readAll.UseVisualStyleBackColor = true;
@@ -67,9 +70,10 @@
             // 
             // read
             // 
-            read.Location = new Point(577, 229);
+            read.Location = new Point(367, 107);
+            read.Margin = new Padding(5, 3, 5, 3);
             read.Name = "read";
-            read.Size = new Size(94, 29);
+            read.Size = new Size(200, 88);
             read.TabIndex = 3;
             read.Text = "read";
             read.UseVisualStyleBackColor = true;
@@ -77,9 +81,10 @@
             // 
             // delete
             // 
-            delete.Location = new Point(523, 327);
+            delete.Location = new Point(493, 239);
+            delete.Margin = new Padding(5, 3, 5, 3);
             delete.Name = "delete";
-            delete.Size = new Size(94, 29);
+            delete.Size = new Size(200, 88);
             delete.TabIndex = 4;
             delete.Text = "delete";
             delete.UseVisualStyleBackColor = true;
@@ -87,14 +92,16 @@
             // 
             // options
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(897, 480);
             Controls.Add(delete);
             Controls.Add(read);
             Controls.Add(readAll);
             Controls.Add(update);
             Controls.Add(create);
+            Font = new Font("Segoe UI", 14F);
+            Margin = new Padding(5, 3, 5, 3);
             Name = "options";
             Text = "options";
             ResumeLayout(false);

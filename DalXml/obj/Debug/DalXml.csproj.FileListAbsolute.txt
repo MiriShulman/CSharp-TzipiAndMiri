@@ -33,3 +33,17 @@ C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏�
 C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\refint\DalXml.dll
 C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\DalXml.pdb
 C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalXml\obj\Debug\ref\DalXml.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\DalXml.deps.json
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\DalXml.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\DalXml.pdb
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.sourcelink.json
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.csproj.Up2Date
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\refint\DalXml.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.pdb
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\ref\DalXml.dll

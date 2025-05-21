@@ -8,7 +8,7 @@ namespace BlTest;
     internal class Program
     {
 
-        static readonly BlApi.IBL s_bl = BlApi.Factory.Get();
+        static readonly BlApi.IBL s_bl = BlApi.Factory.Get;
 
         public static void start()
         {

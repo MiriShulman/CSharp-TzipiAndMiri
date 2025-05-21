@@ -3,3 +3,20 @@ D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BlTest\obj\Debug\BlTe
 D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BlTest\obj\Debug\BlTest.AssemblyInfoInputs.cache
 D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BlTest\obj\Debug\BlTest.AssemblyInfo.cs
 D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\BlTest\obj\Debug\BlTest.csproj.CoreCompileInputs.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.csproj.AssemblyReference.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.AssemblyInfoInputs.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.AssemblyInfo.cs
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.csproj.CoreCompileInputs.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.sourcelink.json
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\BlTest.exe
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\BlTest.deps.json
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\BlTest.runtimeconfig.json
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\BlTest.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\BlTest.pdb
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.csproj.Up2Date
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\refint\BlTest.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.pdb
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.genruntimeconfig.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\ref\BlTest.dll

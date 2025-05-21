@@ -26,10 +26,10 @@ namespace client
         {
             string name = insertName.Text;
             int id = int.Parse(insertId.Text);
-            int amount = (int) insertAmount.Value;
-            double price = (double) insertAmount.Value;
+            int amount = (int)insertAmount.Value;
+            double price = (double)insertAmount.Value;
             string str = chooseCategory.Text;
-            Category category = Category.str;
+            Category category = (Category)Enum.Parse(typeof(Category), chooseCategory.SelectedItem.ToString());
             Product p = new Product(id, name, price, amount, category);
             switch (funcName)
             {
@@ -40,6 +40,11 @@ namespace client
                     prod.Update(p);
                     break;
             }
+        }
+
+        private void SaleInProduct_Click(object sender, EventArgs e)
+        {
+
         }
     }
     //private Category GetCategoryByName(string categoryName)

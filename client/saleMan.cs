@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace client
 {
-    public partial class enter : Form
+    public partial class saleMan : Form
     {
-        public enter()
+        public saleMan()
         {
             InitializeComponent();
-        }
-
-        private void products_Click(object sender, EventArgs e)
-        {
-            functions function = new functions("product");
-            function.ShowDialog();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace client
 {
-    partial class enter
+    partial class admin
     {
         /// <summary>
         /// Required designer variable.
@@ -31,57 +31,59 @@
             customers = new Button();
             sales = new Button();
             products = new Button();
-            order = new Button();
             SuspendLayout();
             // 
             // customers
             // 
-            customers.Location = new Point(550, 127);
+            customers.BackColor = Color.LightPink;
+            customers.Font = new Font("Segoe UI", 15F);
+            customers.Location = new Point(461, 124);
+            customers.Margin = new Padding(3, 2, 3, 2);
             customers.Name = "customers";
             customers.RightToLeft = RightToLeft.Yes;
-            customers.Size = new Size(94, 29);
+            customers.Size = new Size(122, 48);
             customers.TabIndex = 0;
             customers.Text = "customers";
-            customers.UseVisualStyleBackColor = true;
+            customers.UseVisualStyleBackColor = false;
+            customers.Click += customers_Click;
             // 
             // sales
             // 
-            sales.Location = new Point(384, 127);
+            sales.BackColor = Color.LightPink;
+            sales.Font = new Font("Segoe UI", 15F);
+            sales.Location = new Point(298, 124);
+            sales.Margin = new Padding(3, 2, 3, 2);
             sales.Name = "sales";
-            sales.Size = new Size(94, 29);
+            sales.Size = new Size(122, 48);
             sales.TabIndex = 1;
             sales.Text = "sales";
-            sales.UseVisualStyleBackColor = true;
+            sales.UseVisualStyleBackColor = false;
+            sales.Click += sales_Click;
             // 
             // products
             // 
-            products.Location = new Point(243, 127);
+            products.BackColor = Color.LightPink;
+            products.Font = new Font("Segoe UI", 15F);
+            products.Location = new Point(120, 124);
+            products.Margin = new Padding(3, 2, 3, 2);
             products.Name = "products";
-            products.Size = new Size(94, 29);
+            products.Size = new Size(122, 48);
             products.TabIndex = 2;
             products.Text = "products";
-            products.UseVisualStyleBackColor = true;
+            products.UseVisualStyleBackColor = false;
             products.Click += products_Click;
             // 
-            // order
+            // admin
             // 
-            order.Location = new Point(80, 127);
-            order.Name = "order";
-            order.Size = new Size(94, 29);
-            order.TabIndex = 3;
-            order.Text = "order";
-            order.UseVisualStyleBackColor = true;
-            // 
-            // enter
-            // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(order);
+            BackColor = Color.LavenderBlush;
+            ClientSize = new Size(700, 338);
             Controls.Add(products);
             Controls.Add(sales);
             Controls.Add(customers);
-            Name = "enter";
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "admin";
             Text = "enter";
             ResumeLayout(false);
         }
@@ -91,6 +93,5 @@
         private Button customers;
         private Button sales;
         private Button products;
-        private Button order;
     }
 }

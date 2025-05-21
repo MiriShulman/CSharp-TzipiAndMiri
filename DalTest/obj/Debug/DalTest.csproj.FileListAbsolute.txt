@@ -95,3 +95,20 @@ C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏�
 C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalTest\obj\Debug\DalTest.pdb
 C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25.3 ‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalTest\obj\Debug\ref\DalTest.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\DalTest.exe
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\DalTest.deps.json
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\DalTest.runtimeconfig.json
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\DalTest.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\DalTest.pdb
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.sourcelink.json
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.csproj.Up2Date
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\refint\DalTest.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.pdb
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\ref\DalTest.dll

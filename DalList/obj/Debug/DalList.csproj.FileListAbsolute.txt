@@ -78,3 +78,18 @@ D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalList\obj\Debug\Dal
 D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalList\obj\Debug\refint\DalList.dll
 D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalList\obj\Debug\DalList.pdb
 D:\יד\C#\‏‏‏‏DotNet2025_3565_6776 - מעודכן\DalList\obj\Debug\ref\DalList.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\DalList.cs
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\DalList.deps.json
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\DalList.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\DalList.pdb
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.AssemblyInfo.cs
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.sourcelink.json
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.csproj.Up2Date
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\refint\DalList.dll
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.pdb
+Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\ref\DalList.dll

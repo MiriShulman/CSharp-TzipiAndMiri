@@ -7,9 +7,14 @@ using System.Diagnostics;
 
 namespace Dal
 {
+
+    //כרגע הבעיה שהוא הולך לניתוב לא נכון בקריאה מקובץ הלוג, 
+    //'Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\bin\products.xml
     internal class program
 
     {
+        private static readonly IDal s_dal = DalApi.Factory.Get;
+
         private static void CreateProduct()
         {
             Console.WriteLine($"to add birthdayCakes press 1");
@@ -30,7 +35,7 @@ namespace Dal
             int amount;
             int.TryParse(Console.ReadLine(), out amount);
             Product prod = new Product(0, name, price, amount, cat);
-            Console.WriteLine(s_dal.product.Create(prod));
+            Console.WriteLine(s_dal.Product.Create(prod));
         }
 
         private static void CreateCustomer()
@@ -42,7 +47,7 @@ namespace Dal
             Console.WriteLine("insert phone of your customer");
             string phone = Console.ReadLine();
             Customer customer = new Customer(0, name, address, phone);
-            Console.WriteLine(s_dal.customer.Create(customer));
+            Console.WriteLine(s_dal.Customer.Create(customer));
         }
 
         private static void CreateSale()
@@ -74,11 +79,9 @@ namespace Dal
             DateTime endSale;
             endSale = beginSale.AddDays(endSaleTemp);
             Sale sale = new Sale(0, id, minimumAmount, sum, isNeedClub, beginSale, endSale);
-            Console.WriteLine(s_dal.sale.Create(sale));
+            Console.WriteLine(s_dal.Sale.Create(sale));
 
         }
-
-        private static IDal s_dal = DalApi.Factory.Get;
 
         private static void Read<T>(ICrud<T> crud)
         {
@@ -99,7 +102,10 @@ namespace Dal
         {
             try
             {
+                Console.WriteLine("i'm here");
                 List<T> list = crud.ReadAll();
+                Console.WriteLine("i'm here");
+
                 foreach (var item in list)
                 {
                     Console.WriteLine(item);
@@ -107,6 +113,7 @@ namespace Dal
             }
             catch (Exception ex)
             {
+                Console.WriteLine("i arrive to readAll");
                 Console.WriteLine(ex);
             }
         }
@@ -137,7 +144,7 @@ namespace Dal
             int amount;
             int.TryParse(Console.ReadLine(), out amount);
             Product prod = new Product(id, name, price, amount);
-            s_dal.product.Update(prod);
+            s_dal.Product.Update(prod);
         }
 
         private static void updateCustomer()
@@ -149,7 +156,7 @@ namespace Dal
             string address = Console.ReadLine();
             string phone = Console.ReadLine();
             Customer customer = new Customer(id, name, address, phone);
-            s_dal.customer.Update(customer);
+            s_dal.Customer.Update(customer);
         }
 
         private static void updateSale()
@@ -172,7 +179,7 @@ namespace Dal
             endSale = DateTime.Now.AddDays(20);
             //DateTime.TryParse(Console.ReadLine(), out endSale);
             Sale sale = new Sale(code, id, minimumAmount, sum, isNeedClub, beginSale, endSale);
-            s_dal.sale.Update(sale);
+            s_dal.Sale.Update(sale);
 
         }
 
@@ -189,7 +196,7 @@ namespace Dal
                 if (!int.TryParse(Console.ReadLine(), out press))
                     press = 0;
                 if (press == 4)
-                    Tools.LogManager.DeletePrev();
+                    Tools.LogManager.DeleteLog();
                 if (press > 4)
                     throw new DalIsNotOption("this option is not exist");
                 if (press != 4 && press != 0)
@@ -228,12 +235,15 @@ namespace Dal
 
                 case 2:
                     {
-                        Read(s_dal.product);
+                        Read<Product>(s_dal.Product);
                         break;
                     }
                 case 3:
                     {
-                        ReadAll(s_dal.product);
+                        Console.WriteLine("product menu");
+                        //Console.WriteLine(s_dal);
+                        //Console.WriteLine(s_dal.Product);
+                        ReadAll<Product>(s_dal.Product);
                         break;
                     }
                 case 4:
@@ -243,7 +253,7 @@ namespace Dal
                     }
                 case 5:
                     {
-                        Delete(s_dal.product);
+                        Delete<Product>(s_dal.Product);
                         break;
                     }
                 
@@ -261,12 +271,12 @@ namespace Dal
 
                 case 2:
                     {
-                        Read(s_dal.customer);
+                        Read<Customer>(s_dal.Customer);
                         break;
                     }
                 case 3:
                     {
-                        ReadAll(s_dal.customer);
+                        ReadAll<Customer>(s_dal.Customer);
                         break;
                     }
                 case 4:
@@ -276,7 +286,7 @@ namespace Dal
                     }
                 case 5:
                     {
-                        Delete(s_dal.customer);
+                        Delete<Customer>(s_dal.Customer);
                         break;
                     }
             }
@@ -294,12 +304,12 @@ namespace Dal
 
                 case 2:
                     {
-                        Read(s_dal.sale);
+                        Read<Sale>(s_dal.Sale);
                         break;
                     }
                 case 3:
                     {
-                        ReadAll(s_dal.sale);
+                        ReadAll<Sale>(s_dal.Sale);
                         break;
                     }
                 case 4:
@@ -309,7 +319,7 @@ namespace Dal
                     }
                 case 5:
                     {
-                        Delete(s_dal.sale);
+                        Delete<Sale>(s_dal.Sale);
                         break;
                     }
             }
@@ -340,22 +350,44 @@ namespace Dal
                     }
             }
         }
-        private static void Main(string[] args)
+        public static void Main(string[] args)
         {
             int press;
             Console.WriteLine();
-            String dirPath = Directory.GetCurrentDirectory() + @"\Log";
+            //String dirPath = Directory.GetCurrentDirectory() + @"\Log";
             int month = DateTime.Now.Month;
-            string[] foldersEntries = Directory.GetDirectories(@"C:\Users\1\Desktop\new");
-            Console.WriteLine(foldersEntries[0]);
+            //string[] foldersEntries = Directory.GetDirectories(@"C:\Users\1\Desktop\new");
+            //Console.WriteLine(foldersEntries[0]);
             String currentPath;
             Console.WriteLine("if you want to initialize press 1, else press 0");
-            if (!int.TryParse(Console.ReadLine(), out press))
+            //while (press != 0 && press != 1)
+            //{
+            if (int.TryParse(Console.ReadLine(), out press))
+            {
+                //int.TryParse(Console.ReadLine(), out press);
                 if (press == 1)
                     Initialization.Initialize();
-            try
+                else if (press == 0)
+                {
+                    
+                    //Console.WriteLine(xmlPath);
+                    Console.WriteLine(press);
+                }
+                //if (press!= 1 && press !=0)
+                //    Console.WriteLine("try again");
+            }
+            else
             {
                 
+                //s_dal = DalApi.Factory.Get;
+                Console.WriteLine("Invalid input, try again.");
+            }
+            //}
+
+
+            try
+            {
+
                 MainMenu();
             }
             catch (Exception ex)

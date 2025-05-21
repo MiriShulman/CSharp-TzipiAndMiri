@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfSales></ArrayOfSales>
+<ArrayOfSales>
+	<code>87654</code>
+	<id>3768</id>
+	<minimumAmount>2</minimumAmount>
+	<sum>45</sum>
+	<isNeedClub>True</isNeedClub>
+	<beginSale>21-05-2025</beginSale>
+	<endSale>10-06-2025</endSale>
+</ArrayOfSales>

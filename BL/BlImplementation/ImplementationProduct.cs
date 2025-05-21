@@ -11,7 +11,7 @@ internal class ImplementationProduct : IProduct
         {
             try
             {
-                return _dal.product.Create(CastProduct(product)); 
+                return _dal.Product.Create(CastProduct(product)); 
             }
             catch (Exception e)
             {
@@ -24,7 +24,7 @@ internal class ImplementationProduct : IProduct
         {
             try
             {
-                return _dal.product.Read(id).CastProduct();
+                return _dal.Product.Read(id).CastProduct();
             }
             catch(Exception e)
             {
@@ -37,7 +37,7 @@ internal class ImplementationProduct : IProduct
         {
             try
             {
-                return _dal.product.ReadAll(p => filter(p.CastProduct()))
+                return _dal.Product.ReadAll(p => filter(p.CastProduct()))
                     .Select (p => p.CastProduct()).ToList();
             }
             catch(Exception e) {
@@ -50,7 +50,7 @@ internal class ImplementationProduct : IProduct
         {
             try
             {
-                _dal.product.Update(CastProduct(p));
+                _dal.Product.Update(CastProduct(p));
             }
             catch(Exception ex) 
                 { throw ex; }
@@ -61,7 +61,7 @@ internal class ImplementationProduct : IProduct
         {
             try
             {
-                _dal.product.Delete(id);
+                _dal.Product.Delete(id);
             }
             catch(Exception e)
                     { throw e; }
@@ -72,7 +72,7 @@ internal class ImplementationProduct : IProduct
         {
             try { 
     
-                    return _dal.product.Read(p => filter(p.CastProduct()))?.CastProduct();
+                    return _dal.Product.Read(p => filter(p.CastProduct()))?.CastProduct();
             }
             catch(Exception e)
             {
@@ -86,9 +86,10 @@ internal class ImplementationProduct : IProduct
         try
         {
 
-            return CastProduct(_dal.product);
+            return _dal.Sale.ReadAll(s => s.code == ProductId && s.beginSale <= DateTime.Now && s.endSale >= DateTime.Now && (s.isNeedClub == false || s.isNeedClub == PreferredCustomer)).Select(s => s.CastSaleToSaleInProduct()).ToList();
+
         }
-        catch(Exception e)
+        catch (Exception e)
         {
             throw e;
         }

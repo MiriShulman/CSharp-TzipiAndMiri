@@ -11,7 +11,7 @@ internal class ImplementationSale : ISale
         {
             try
             {
-                return _dal.sale.Create(CastSale(sale));
+                return _dal.Sale.Create(CastSale(sale));
             }
             catch(Exception e)
             { throw e; }
@@ -22,7 +22,7 @@ internal class ImplementationSale : ISale
         {
             try
             {
-                return _dal.sale.Read(id).CastSale();
+                return _dal.Sale.Read(id).CastSale();
             }
             catch(Exception e) {  throw e; }
         }
@@ -32,7 +32,7 @@ internal class ImplementationSale : ISale
         {
             try
             {
-                return _dal.sale.ReadAll(p => filter(p.CastSale()))
+                return _dal.Sale.ReadAll(p => filter(p.CastSale()))
                 .Select(p => p.CastSale()).ToList();
             }
             catch(Exception e) { throw e ; }
@@ -44,7 +44,7 @@ internal class ImplementationSale : ISale
         {
             try
             {
-                _dal.sale.Update(CastSale(sale));
+                _dal.Sale.Update(CastSale(sale));
             }
             catch(Exception ex) { throw ex; }
         }
@@ -54,7 +54,7 @@ internal class ImplementationSale : ISale
         {
             try
             {
-                _dal.sale.Delete(id);
+                _dal.Sale.Delete(id);
             }
             catch(Exception e)
             {
@@ -67,7 +67,7 @@ internal class ImplementationSale : ISale
         {
             try
             {
-                return _dal.sale.Read(s => filter(s.CastSale()))?.CastSale();
+                return _dal.Sale.Read(s => filter(s.CastSale()))?.CastSale();
             }
             catch(Exception e)
             {
