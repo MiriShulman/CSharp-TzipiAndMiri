@@ -1,36 +1,56 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using System.Xml.Serialization;
 
 namespace Dal
 {
-    internal class Config
+    public class Config
     {
         private static string ConfigFileName = "data-config.xml";
+        private static int code = 0;
+        private static int sale_code = 0;
 
-        public static int GetProductCode()
+        public static int productCode
         {
-            XElement xml;
-            string path = Path.Combine(Path.GetDirectoryName("xml"), ConfigFileName);
-            xml = XElement.Load(path);
-            int code = int.Parse(xml.Element("productMinCode")?.Value);
-            code++;
-            xml.Element("productMinCode").SetValue(code);
-            return code;
+            get
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(Config), new XmlRootAttribute("config"));
+                string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
+                string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+                string file_path = Path.Combine(parentDirectory, "xml", ConfigFileName);
+
+                XElement xml = XElement.Load(file_path);
+                code = int.Parse(xml.Element("productMinCode").Value);
+                xml.Element("productMinCode").SetValue(++code);
+
+                // שמירת השינויים לקובץ
+                xml.Save(file_path);
+
+                return code;
+            }
         }
 
-        public static int GetSaleCode()
+        public static int saleCode
         {
-            XElement xml;
-            string path = Path.Combine(Path.GetDirectoryName("xml"), ConfigFileName);
-            xml = XElement.Load(path);
-            int code = int.Parse(xml.Element("saleMinCode")?.Value);
-            code++;
-            xml.Element("saleMinCode").SetValue(code);
-            return code;
+            get {
+                XmlSerializer serializer = new XmlSerializer(typeof(Config), new XmlRootAttribute("config"));
+                string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
+                string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+                string file_path = Path.Combine(parentDirectory, "xml", ConfigFileName);
+
+                XElement xml = XElement.Load(file_path);
+                sale_code = int.Parse(xml.Element("saleMinCode").Value);
+                xml.Element("saleMinCode").SetValue(++sale_code);
+                xml.Save(file_path);
+                return sale_code;
+            }
         }
+        //public int productMinCode { get; set; } // הוסף מאפיין זה
+        //public int saleMinCode { get; set; } // הוסף מאפיין זה
     }
 }

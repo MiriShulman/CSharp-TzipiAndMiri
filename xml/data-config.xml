@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <config>
-	<saleMinCode>38</saleMinCode>
-	<productMinCode>69</productMinCode>
-	
+  <saleMinCode>43</saleMinCode>
+  <productMinCode>355</productMinCode>
 </config>
-
-

@@ -9,6 +9,7 @@ using System.Data.Common;
 using System.Reflection;
 using System.Xml.Linq;
 using System.Xml.Serialization;
+using Tools;
 
 namespace Dal;
 
@@ -27,19 +28,36 @@ internal class SaleImplementation : Isale
     {
         try
         {
-            XElement xml;
-            string path = Path.Combine(Path.GetDirectoryName("xml"), "sales.xml");
-            xml = XElement.Load(path);
-            String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
-            String method = MethodBase.GetCurrentMethod().Name;
-            Tools.LogManager.WriteToLog(progName, method, "begin");
-            Sale s = item with { id = Config.GetSaleCode() };
-            xml.Add(CastSaleToXElement(s));
-            Console.WriteLine(s);
+            LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "start create sale");
+            List<Sale>? sales = new List<Sale>();
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Sale>), new XmlRootAttribute("ArrayOfSales"));
 
-            xml.Save(path);
-            Tools.LogManager.WriteToLog(progName, method, "end");
-            return s.id;
+            string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
+            string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+            string file_path = Path.Combine(parentDirectory, "xml", "sales.xml");
+            using (FileStream fs = new FileStream(file_path, FileMode.OpenOrCreate, FileAccess.ReadWrite))
+            {
+                try
+                {
+                    sales = serializer.Deserialize(fs) as List<Sale>;
+
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                }
+                if (sales != null && sales.Contains(item))
+                {
+                    LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "sale are exists");
+                    throw new DalIdAlreadyExist("sale are exists");
+                }
+                Sale s = item with { id = Config.saleCode };
+                sales.Add(s);
+                fs.Position = 0;
+                serializer.Serialize(fs, sales);
+            }
+            LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "end create sale");
+            return item.id;
         }
         catch
         {

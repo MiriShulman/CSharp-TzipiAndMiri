@@ -112,3 +112,20 @@ Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\refint\DalTest
 Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.pdb
 Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\DalTest\obj\Debug\ref\DalTest.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\bin\DalTest.exe
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\bin\DalTest.deps.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\bin\DalTest.runtimeconfig.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\bin\DalTest.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\bin\DalTest.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.sourcelink.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.csproj.CopyComplete
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalTest\obj\Debug\refint\DalTest.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalTest\obj\Debug\ref\DalTest.dll

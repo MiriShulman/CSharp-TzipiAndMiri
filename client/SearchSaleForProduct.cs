@@ -45,8 +45,8 @@ namespace client
             Category category = (Category)Enum.Parse(typeof(Category), categoryInput.SelectedItem.ToString());
             bool isPreferredCustomer = IsPreferredCustomer.Checked;
             Product p = new Product(id, name, price, amount, category);
-            s_Ibl.Order.SearchSaleForProduct(, isPreferredCustomer);
-            listOfSales.Items.Add();
+            //s_Ibl.Order.SearchSaleForProduct(, isPreferredCustomer);
+            //listOfSales.Items.Add();
         }
 
         private void idInput_ValueChanged(object sender, EventArgs e)

@@ -66,3 +66,15 @@ Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\Tools\obj\Debug\Tools.dll
 Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\Tools\obj\Debug\refint\Tools.dll
 Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\Tools\obj\Debug\Tools.pdb
 Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\Tools\obj\Debug\ref\Tools.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\bin\Tools.deps.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\bin\Tools.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\bin\Tools.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\Tools\obj\Debug\Tools.AssemblyInfo.cs
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\Tools\obj\Debug\Tools.sourcelink.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\Tools\obj\Debug\Tools.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\Tools\obj\Debug\refint\Tools.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\Tools\obj\Debug\Tools.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\Tools\obj\Debug\ref\Tools.dll

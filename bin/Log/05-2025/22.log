@@ -1,0 +1,948 @@
+22/05/2025 00:10:21	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:10:22	Dal.CustomerImplementation.Create:	customer are exists
+
+22/05/2025 00:10:22	Dal.CustomerImplementation.Create:	error
+
+22/05/2025 00:12:13	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:12:13	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:12:13	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:12:13	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:12:13	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:12:13	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:12:13	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:12:13	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:12:13	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:12:13	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:12:13	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:12:13	Dal.ProductImplementation.Create:	error
+
+22/05/2025 00:12:41	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:12:41	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:12:41	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:12:41	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:12:41	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:12:41	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:12:41	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:12:41	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:12:41	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:12:41	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:13:04	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:16:06	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:16:06	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:16:06	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:16:06	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:16:06	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:16:06	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:16:06	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:16:07	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:16:07	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:16:07	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:16:28	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:17:24	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 00:17:40	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:17:52	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 00:17:55	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:17:55	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 00:17:55	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:17:55	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 00:17:56	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:17:56	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 00:17:59	Dal.SaleImplementation.Create:	error
+
+22/05/2025 00:24:57	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:24:57	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:24:57	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:24:57	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:24:57	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:24:57	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:24:57	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:24:57	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:24:57	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:24:57	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:25:12	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:25:44	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 00:25:51	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:25:51	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 00:25:52	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:25:52	Dal.ProductImplementation.Create:	error
+
+22/05/2025 00:28:09	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:28:09	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:28:09	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:28:09	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:28:09	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:28:09	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:28:09	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:28:09	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:28:09	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:28:09	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:28:15	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:28:15	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 00:28:17	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:28:17	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 00:28:30	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:29:41	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 00:30:10	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:31:17	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 00:31:45	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:32:18	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 00:32:48	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 00:34:30	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 00:34:49	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 00:35:38	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 00:35:47	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 00:35:47	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 00:35:48	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 00:35:48	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 00:35:50	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 00:35:50	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 00:36:29	Dal.ProductImplementation.ReadAll:	begin
+
+22/05/2025 00:36:29	Dal.ProductImplementation.ReadAll:	end
+
+22/05/2025 00:37:20	Dal.ProductImplementation.ReadAll:	begin
+
+22/05/2025 00:37:20	Dal.ProductImplementation.ReadAll:	end
+
+22/05/2025 00:43:50	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:43:50	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:43:50	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:43:50	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:43:50	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:43:50	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:43:50	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:43:50	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:43:50	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:43:50	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:43:50	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:43:50	Dal.ProductImplementation.Create:	error
+
+22/05/2025 00:44:14	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:44:15	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:44:15	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:44:15	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:44:15	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:44:15	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:44:15	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:44:15	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:44:15	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:44:15	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:44:21	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:44:22	Dal.ProductImplementation.Create:	error
+
+22/05/2025 00:44:36	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:44:36	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:44:36	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:44:36	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:44:36	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:44:36	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:44:36	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:44:36	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:44:36	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:44:36	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:44:54	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:51:06	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:51:06	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:51:06	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:51:06	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:51:06	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:51:06	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:51:06	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:51:06	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:51:06	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:51:06	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:51:21	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:51:46	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:51:46	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:51:46	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:51:46	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:51:46	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:51:46	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:51:46	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:51:46	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:51:46	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:51:46	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:53:14	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:53:14	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:53:14	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:53:14	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:53:14	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:53:14	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:53:14	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:53:15	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:53:15	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:53:15	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:53:29	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 00:58:01	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:58:02	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:58:02	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:58:02	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:58:02	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:58:02	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:58:02	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:58:02	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:58:02	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 00:58:02	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 00:58:16	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:00:57	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:00:58	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:00:58	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:00:58	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:00:58	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:00:58	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:00:58	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:00:58	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:00:58	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:00:58	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:01:12	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:14:55	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:14:55	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:14:55	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:14:55	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:14:55	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:14:55	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:14:55	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:14:55	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:14:55	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:14:55	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:15:12	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:16:37	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:16:38	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:16:38	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:16:38	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:16:38	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:16:38	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:16:38	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:16:38	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:16:38	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:16:38	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:16:38	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:18:09	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:18:09	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:18:09	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:18:09	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:18:09	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:18:09	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:18:09	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:18:09	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:18:09	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:18:09	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:18:09	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:19:38	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:19:39	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:19:39	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:19:39	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:19:39	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:19:39	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:19:39	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:19:39	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:19:39	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:19:39	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:19:39	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:21:38	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:21:38	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:21:38	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:21:38	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:21:38	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:21:38	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:21:38	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:21:38	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:21:38	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:21:38	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:21:38	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:22:09	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:22:09	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:22:09	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:22:09	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:22:09	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:22:09	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:22:09	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:22:09	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:22:09	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:22:09	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:22:09	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:22:45	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:22:49	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:24:08	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:24:08	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:24:08	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:24:08	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:24:08	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:24:08	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:24:08	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:24:08	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:24:08	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:24:08	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:24:08	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:24:08	Dal.ProductImplementation.Create:	product are exists
+
+22/05/2025 01:24:08	Dal.ProductImplementation.Create:	error
+
+22/05/2025 01:24:40	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:24:41	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:24:41	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:24:41	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:24:41	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:24:41	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:24:41	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:24:41	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:24:41	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:24:41	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:24:41	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:24:41	Dal.ProductImplementation.Create:	product are exists
+
+22/05/2025 01:24:41	Dal.ProductImplementation.Create:	error
+
+22/05/2025 01:25:22	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:25:22	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:25:22	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:25:22	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:25:22	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:25:22	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:25:22	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:25:22	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:25:22	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:25:22	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:25:22	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:27:56	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:27:56	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:27:56	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:27:56	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:27:56	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:27:56	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:27:56	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:27:57	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:27:57	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:27:57	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:27:57	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:28:36	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:28:55	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:29:24	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:29:29	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:29:40	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:29:45	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:29:53	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:29:58	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:30:15	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:33:51	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:33:51	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:33:51	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:33:51	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:33:51	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:33:51	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:33:51	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:33:51	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:33:51	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:33:51	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:33:51	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:34:10	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:34:14	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:34:14	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:34:14	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:34:15	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:34:15	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:34:15	Dal.ProductImplementation.Create:	error
+
+22/05/2025 01:35:20	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:35:20	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:35:20	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:35:20	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:35:20	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:35:20	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:35:20	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:35:20	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:35:20	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:35:21	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:35:21	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:35:29	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:35:32	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:35:38	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:35:42	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:35:47	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:35:52	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:35:59	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:36:02	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:36:07	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:36:13	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 01:36:13	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 01:36:13	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 01:36:13	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 01:36:13	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 01:36:13	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 01:36:13	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 01:36:13	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 01:36:13	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 01:36:13	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 01:37:04	Dal.ProductImplementation.ReadAll:	begin
+
+22/05/2025 01:37:04	Dal.ProductImplementation.ReadAll:	end
+
+22/05/2025 01:43:06	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:43:06	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:43:06	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:43:06	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:43:06	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:43:06	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:43:06	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:43:06	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:43:06	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:43:06	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:43:06	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:43:15	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:44:20	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:44:20	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:44:20	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:44:20	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:44:20	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:44:20	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:44:20	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:44:20	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:44:20	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:44:20	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:44:20	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:51:25	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:51:25	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:51:25	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:51:25	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:51:25	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:51:25	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:51:25	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:51:25	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:51:25	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:51:26	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:51:26	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:51:50	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:53:21	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:53:21	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:53:21	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:53:21	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:53:21	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:53:21	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:53:21	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:53:21	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:53:21	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 01:53:21	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 01:53:21	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:54:36	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:54:46	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:55:01	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:55:04	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:55:16	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:55:19	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:55:27	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:55:31	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 01:55:38	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 01:59:44	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 01:59:44	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 01:59:44	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 01:59:44	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 01:59:44	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 01:59:44	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 01:59:44	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 01:59:44	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 01:59:44	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 01:59:45	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 02:02:05	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 02:02:05	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 02:02:05	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 02:02:05	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 02:02:05	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 02:02:05	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 02:02:05	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 02:02:05	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 02:02:05	Dal.CustomerImplementation.Create:	start create customer
+
+22/05/2025 02:02:05	Dal.CustomerImplementation.Create:	end create customer
+
+22/05/2025 02:02:05	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 02:02:05	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 02:02:05	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 02:02:05	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 02:02:05	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 02:02:05	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 02:02:05	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 02:02:05	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 02:02:05	Dal.ProductImplementation.Create:	start create product
+
+22/05/2025 02:02:05	Dal.ProductImplementation.Create:	end create product
+
+22/05/2025 02:02:05	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 02:02:05	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 02:02:05	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 02:02:05	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 02:02:05	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 02:02:05	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 02:02:05	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 02:02:05	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 02:02:05	Dal.SaleImplementation.Create:	start create sale
+
+22/05/2025 02:02:05	Dal.SaleImplementation.Create:	end create sale
+
+22/05/2025 02:02:10	Dal.ProductImplementation.ReadAll:	begin
+
+22/05/2025 02:02:10	Dal.ProductImplementation.ReadAll:	end
+
+22/05/2025 02:02:18	Dal.ProductImplementation.Read:	begin
+
+22/05/2025 02:02:18	Dal.ProductImplementation.Read:	end
+
+22/05/2025 02:03:15	Dal.ProductImplementation.Update:	begin
+
+22/05/2025 02:03:15	Dal.ProductImplementation.Delete:	begin
+
+22/05/2025 02:03:15	Dal.ProductImplementation.Read:	begin
+
+22/05/2025 02:03:15	Dal.ProductImplementation.Read:	end
+
+22/05/2025 02:03:15	Dal.ProductImplementation.Delete:	end
+
+22/05/2025 02:03:15	Dal.ProductImplementation.Update:	end
+
+22/05/2025 02:03:39	Dal.ProductImplementation.Update:	begin
+
+22/05/2025 02:03:39	Dal.ProductImplementation.Delete:	begin
+
+22/05/2025 02:03:39	Dal.ProductImplementation.Read:	begin
+
+22/05/2025 02:03:39	Dal.ProductImplementation.Read:	end
+
+22/05/2025 02:03:39	Dal.ProductImplementation.Delete:	end
+
+22/05/2025 02:03:39	Dal.ProductImplementation.Update:	end
+
+22/05/2025 02:03:47	Dal.ProductImplementation.Read:	begin
+
+22/05/2025 02:03:47	Dal.ProductImplementation.Read:	end
+

@@ -51,8 +51,7 @@ public class ProductImplementation : Iproduct
         {
             LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "start create product");
             List<Product>? products = new List<Product>();
-            XmlSerializer serializer = new XmlSerializer(typeof(List<Customer>), new XmlRootAttribute("ArrayOfProducts"));
-            //using (var reader = new StringReader(xmlString)));
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Product>), new XmlRootAttribute("ArrayOfProducts"));
 
             string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
             string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
@@ -73,14 +72,15 @@ public class ProductImplementation : Iproduct
                     LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "product are exists");
                     throw new DalIdAlreadyExist("product are exists");
                 }
-                products.Add(item);
+                Product p = item with { identity = Config.productCode };
+                products.Add(p);
                 fs.Position = 0;
                 serializer.Serialize(fs, products);
             }
             LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "end create product");
             return item.identity;
         }
-        catch
+        catch(Exception e)
         {
             String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
             String method = MethodBase.GetCurrentMethod().Name;
@@ -159,7 +159,7 @@ public class ProductImplementation : Iproduct
 
     public List<Product> LoadProductsFromXml(string filePath)
     {
-        XmlSerializer serializer = new XmlSerializer(typeof(List<Product>), new XmlRootAttribute("ArrayOfCustomers"));
+        XmlSerializer serializer = new XmlSerializer(typeof(List<Product>), new XmlRootAttribute("ArrayOfProducts"));
         List<Product> products = new List<Product>();
 
         try
