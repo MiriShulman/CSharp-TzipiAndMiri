@@ -1,15 +1,19 @@
 ﻿using BlApi;
 using BO;
 using System;
+using System.Data;
 using static BO.Tools;
 
-internal class ImplementationOrder 
+namespace BllImplementation;
+
+internal class ImplementationOrder : IOrder
 {
     private DalApi.IDal _dal = DalApi.Factory.Get;
+    private ImplementationProduct implementationProduct = new ImplementationProduct();
 
 
     //return all relevant sales for this product
-       public void SearchSaleForProduct(BO.ProductInOrder product, bool IsPreferredCustomer)
+    public void SearchSaleForProduct(BO.ProductInOrder? product, bool IsPreferredCustomer)
     {
         try
         {
@@ -17,10 +21,12 @@ internal class ImplementationOrder
             {
                 product.SalesInProducts = (from sale in _dal.Sale.ReadAll()
                                          where sale.code == product.ProductId &&
-                                         sale.beginSale > DateTime.Now && sale.endSale < DateTime.Now
+                                         sale.beginSale < DateTime.Now && sale.endSale > DateTime.Now
                                          && product.ProductAmount >= sale.minimumAmount
                                          orderby sale.minimumAmount / sale.sum
                                          select sale.CastSaleToSaleInProduct()).ToList();
+                product.SalesInProducts = product.SalesInProducts.Count > 0 ? product.SalesInProducts : new List<SaleInProduct>();
+
             }
             else
             {
@@ -37,7 +43,7 @@ internal class ImplementationOrder
 
     }
     //calc the total price of this product
-    void CalcTotalPriceForProduct(BO.ProductInOrder product)
+    public void CalcTotalPriceForProduct(BO.ProductInOrder? product)
     {
         try
         {
@@ -61,16 +67,17 @@ internal class ImplementationOrder
     }
 
     //calc the total sum of this order
-    void CalcTotalPrice(BO.Order order)
+    public void CalcTotalPrice(BO.Order order)
     {
         try
         {
             double? total = 0;
             foreach (BO.ProductInOrder product in order.ProductsInOrder)
             {
-                CalcTotalPriceForProduct(product);
-                if (total != null)
-                    total += product.ProductBasePrice;
+                total += product.TotalSum;
+                //CalcTotalPriceForProduct(product);
+                //if (total != null)
+                //    total += product.ProductBasePrice;
             }
             order.Price = total;
         }
@@ -80,32 +87,40 @@ internal class ImplementationOrder
 
     //return list of sales that add in this product's add
 
-    List<BO.SaleInProduct> AddProductToOrder(BO.Order order, int ProductId, int amount)
+    public List<BO.SaleInProduct> AddProductToOrder(BO.Order order, int productId, int amount)
     {
+        BO.ProductInOrder p;
         try
         {
-            DO.Product product = _dal.Product.Read(ProductId);
-            BO.ProductInOrder p = order.ProductsInOrder.FirstOrDefault(p => p.ProductId == ProductId);
-            if (p != null)
-            {
-                if (p.ProductAmount + amount <= product.amount)
-                {
-                    p.ProductAmount += amount;
-                }
-                else
-                    throw new Exception("e");
-            }
-            else
+            DO.Product product = _dal.Product.Read(productId);
+            if (order.ProductsInOrder == null)
             {
                 if (amount <= product.amount)
                 {
-                    order.ProductsInOrder.Add(CastProductToProductInOrder(product));
+                    order.ProductsInOrder = new List<ProductInOrder>();
+                    order.ProductsInOrder.Add(CastProductToProductInOrder(product, amount));
+                    implementationProduct.Update(new Product(product.identity, product.name, product.price, product.amount - amount, CastCategory(product.c)));
                 }
                 else
                 {
                     throw new Exception();
                 }
             }
+            else
+            {
+                p = order.ProductsInOrder.FirstOrDefault(p => p.ProductId == productId);
+                if (p != null)
+                {
+                    if (p.ProductAmount + amount <= product.amount)
+                    {
+                        p.ProductAmount += amount;
+                    }
+                    else
+                        throw new Exception("e");
+                }
+            }
+            p = order.ProductsInOrder.FirstOrDefault(p => p.ProductId == productId);
+            
             SearchSaleForProduct(p, order.PreferredCustomer);
             CalcTotalPriceForProduct(p);
             CalcTotalPrice(order);
@@ -117,8 +132,9 @@ internal class ImplementationOrder
             throw e;
         }
     }
+
     //get an order and do it
-    void DoOrder(BO.Order order)
+    public void DoOrder(BO.Order order)
     {
         try
         {
@@ -134,9 +150,5 @@ internal class ImplementationOrder
             throw new Exception(e.Message);
         }
     }
-
-
-
-
 }
 

@@ -1,5 +1,6 @@
 ﻿using BO;
 using System.Collections.Generic;
+using System.Diagnostics;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace BlTest;
@@ -20,23 +21,21 @@ namespace BlTest;
                 while (continuOrder == "1")
                 {
                     AddProduct(order);
-
-                    Console.WriteLine("לחץ 1 אם הינך רוצה להמשיך את ההזמנה ו - 0 אחרת");
+                    Console.WriteLine("press 1 if do you want continue your's order, else press 0 ");
                     continuOrder = Console.ReadLine();
                 }
 
-
-                Console.WriteLine("לחץ 1 אם הינך רוצה לעשות הזמנה נוספת ו - 0 אחרת");
+                Console.WriteLine("press 1 if did you want invite again, else press 0");
                 newOrder = Console.ReadLine();
             }
 
         }
         public static void AddProduct(BO.Order order)
         {
-            Console.WriteLine("הכנס מזהה מוצר");
+            Console.WriteLine("insert product id");
             int id;
             int.TryParse(Console.ReadLine(), out id);
-            Console.WriteLine("הכנס כמות מוצר");
+            Console.WriteLine("insert anount of products");
             int amount;
             int.TryParse(Console.ReadLine(), out amount);
             List<BO.SaleInProduct> sales = s_bl.Order.AddProductToOrder(order, id, amount);
@@ -46,7 +45,7 @@ namespace BlTest;
         }
         public static bool tz()
         {
-            Console.WriteLine("הכנס ת.ז ");
+            Console.WriteLine("insert id");
             string tz = Console.ReadLine();
             if (tz == "0")
                 return false;
@@ -55,8 +54,15 @@ namespace BlTest;
 
         static void Main(string[] args)
         {
-            DalTest.Initialization.Initialize();
-            start();
+        int press;
+        Console.WriteLine("if you want to initialize press 1, else press 0");
+            if (int.TryParse(Console.ReadLine(), out press))
+            {
+                //int.TryParse(Console.ReadLine(), out press);
+                if (press == 1)
+                    DalTest.Initialization.Initialize();
+                start();
+            }
         }
 
 

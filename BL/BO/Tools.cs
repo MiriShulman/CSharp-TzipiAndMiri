@@ -58,9 +58,21 @@ namespace BO
             return new BO.SaleInProduct(s.code, s.minimumAmount, s.sum, s.isNeedClub);
         }
 
-        public static ProductInOrder CastProductToProductInOrder(DO.Product p)
+        public static ProductInOrder CastProductToProductInOrder(DO.Product p, int amount)
         {
-            return new ProductInOrder(p.identity, p.name, p.price, p.amount, null, p.price * p.amount);
+            return new ProductInOrder(p.identity, p.name, p.price, amount, null, p.price * amount);
+        }
+
+        public static DO.Category CastCategory(BO.Category cat)
+        {
+            Enum.TryParse<DO.Category>(cat.ToString(), out DO.Category category);
+            return category;
+        }
+
+        public static BO.Category? CastCategory(DO.Category? cat)
+        {
+            Enum.TryParse<BO.Category>(cat.ToString(), out BO.Category category);
+            return category;
         }
     }
 }

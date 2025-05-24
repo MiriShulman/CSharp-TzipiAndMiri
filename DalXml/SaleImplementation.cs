@@ -70,12 +70,15 @@ internal class SaleImplementation : Isale
     public void Delete(int id)
     {
         XElement xml;
-        string path = Path.Combine(Path.GetDirectoryName("xml"), "sales.xml");
+        string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
+        string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+        string path = Path.Combine(parentDirectory, "xml", "sales.xml");
         xml = XElement.Load(path);
         String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
         String method = MethodBase.GetCurrentMethod().Name;
         Tools.LogManager.WriteToLog(progName, method, "begin");
         xml.Elements().FirstOrDefault(e => (int)e.Element(ID) == id)?.Remove();
+        xml.Save(path);
         Tools.LogManager.WriteToLog(progName, method, "end");
     }
     public Sale? Read(int id)
@@ -83,7 +86,9 @@ internal class SaleImplementation : Isale
         try
         {
             XElement xml;
-            string path = Path.Combine(Path.GetDirectoryName("xml"), "sales.xml");
+            string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
+            string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+            string path = Path.Combine(parentDirectory, "xml", "products.xml");
             xml = XElement.Load(path);
             String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
             String method = MethodBase.GetCurrentMethod().Name;
@@ -143,19 +148,24 @@ internal class SaleImplementation : Isale
     public void Update(Sale item)
     {
         XElement xml;
-        string path = Path.Combine(Path.GetDirectoryName("xml"), "sales.xml");
+        string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
+        string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+        string path = Path.Combine(parentDirectory, "xml", "sales.xml");
         xml = XElement.Load(path);
         String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
         String method = MethodBase.GetCurrentMethod().Name;
         Tools.LogManager.WriteToLog(progName, method, "begin");
         Delete(item.id);
         xml.Add(CastSaleToXElement(item));
+        xml.Save(path);
         Tools.LogManager.WriteToLog(progName, method, "end");
     }
     public List<Sale> GetSalesList()
     {
         XElement xml;
-        string path = Path.Combine(Path.GetDirectoryName("xml"), "sales.xml");
+        string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
+        string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+        string path = Path.Combine(parentDirectory, "xml", "sales.xml");
         xml = XElement.Load(path);
         return (xml.Elements("Sale")
             .Select(x => new Sale

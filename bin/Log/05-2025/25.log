@@ -1,0 +1,162 @@
+25/05/2025 00:02:05	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 00:02:05	Dal.ProductImplementation.Read:	end
+
+25/05/2025 00:02:13	Dal.SaleImplementation.ReadAll:	error
+
+25/05/2025 00:07:49	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 00:07:49	Dal.ProductImplementation.Read:	end
+
+25/05/2025 00:07:56	Dal.SaleImplementation.ReadAll:	error
+
+25/05/2025 00:13:15	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 00:13:15	Dal.ProductImplementation.Read:	end
+
+25/05/2025 00:13:15	Dal.SaleImplementation.ReadAll:	error
+
+25/05/2025 00:20:44	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 00:20:44	Dal.ProductImplementation.Read:	end
+
+25/05/2025 00:20:44	Dal.SaleImplementation.ReadAll:	error
+
+25/05/2025 00:21:13	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 00:21:13	Dal.ProductImplementation.Read:	end
+
+25/05/2025 00:21:13	Dal.SaleImplementation.ReadAll:	error
+
+25/05/2025 00:22:08	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 00:22:08	Dal.ProductImplementation.Read:	end
+
+25/05/2025 00:23:33	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 00:23:57	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 00:23:57	Dal.ProductImplementation.Read:	end
+
+25/05/2025 00:24:30	Dal.SaleImplementation.ReadAll:	error
+
+25/05/2025 00:26:03	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 00:26:03	Dal.ProductImplementation.Read:	end
+
+25/05/2025 00:26:08	Dal.SaleImplementation.ReadAll:	error
+
+25/05/2025 00:34:34	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 00:34:34	Dal.ProductImplementation.Read:	end
+
+25/05/2025 00:34:34	Dal.SaleImplementation.ReadAll:	error
+
+25/05/2025 00:34:41	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 00:34:41	Dal.ProductImplementation.Read:	end
+
+25/05/2025 00:34:41	Dal.SaleImplementation.ReadAll:	error
+
+25/05/2025 00:35:49	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 00:35:49	Dal.ProductImplementation.Read:	end
+
+25/05/2025 00:36:38	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 00:36:38	Dal.ProductImplementation.Read:	end
+
+25/05/2025 00:37:15	Dal.SaleImplementation.ReadAll:	error
+
+25/05/2025 00:38:18	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 00:38:18	Dal.ProductImplementation.Read:	end
+
+25/05/2025 00:38:27	Dal.SaleImplementation.ReadAll:	error
+
+25/05/2025 00:39:36	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 00:39:36	Dal.ProductImplementation.Read:	end
+
+25/05/2025 00:41:23	Dal.SaleImplementation.ReadAll:	error
+
+25/05/2025 01:01:02	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 01:01:02	Dal.ProductImplementation.Read:	end
+
+25/05/2025 01:01:02	Dal.SaleImplementation.ReadAll:	error
+
+25/05/2025 01:16:04	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 01:16:04	Dal.ProductImplementation.Read:	end
+
+25/05/2025 01:16:04	Dal.ProductImplementation.Update:	begin
+
+25/05/2025 01:16:04	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 01:16:04	Dal.ProductImplementation.Read:	end
+
+25/05/2025 01:16:36	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 01:16:36	Dal.ProductImplementation.Read:	end
+
+25/05/2025 01:16:36	Dal.ProductImplementation.Update:	begin
+
+25/05/2025 01:16:39	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 01:16:39	Dal.ProductImplementation.Read:	end
+
+25/05/2025 01:17:04	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 01:17:04	Dal.ProductImplementation.Read:	end
+
+25/05/2025 01:17:04	Dal.ProductImplementation.Update:	begin
+
+25/05/2025 01:18:08	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 01:18:08	Dal.ProductImplementation.Read:	end
+
+25/05/2025 01:18:16	Dal.ProductImplementation.Update:	begin
+
+25/05/2025 01:18:17	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 01:18:17	Dal.ProductImplementation.Read:	end
+
+25/05/2025 01:18:25	Dal.ProductImplementation.Delete:	begin
+
+25/05/2025 01:18:25	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 01:18:25	Dal.ProductImplementation.Read:	end
+
+25/05/2025 01:18:25	Dal.ProductImplementation.Delete:	end
+
+25/05/2025 01:18:29	Dal.ProductImplementation.Update:	end
+
+25/05/2025 01:18:35	Dal.SaleImplementation.ReadAll:	error
+
+25/05/2025 01:19:20	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 01:19:20	Dal.ProductImplementation.Read:	end
+
+25/05/2025 01:19:59	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 01:19:59	Dal.ProductImplementation.Read:	end
+
+25/05/2025 01:19:59	Dal.ProductImplementation.Update:	begin
+
+25/05/2025 01:19:59	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 01:19:59	Dal.ProductImplementation.Read:	end
+
+25/05/2025 01:19:59	Dal.ProductImplementation.Delete:	begin
+
+25/05/2025 01:19:59	Dal.ProductImplementation.Read:	begin
+
+25/05/2025 01:19:59	Dal.ProductImplementation.Read:	end
+
+25/05/2025 01:19:59	Dal.ProductImplementation.Delete:	end
+
+25/05/2025 01:19:59	Dal.ProductImplementation.Update:	end
+
+25/05/2025 01:20:13	Dal.SaleImplementation.ReadAll:	error
+

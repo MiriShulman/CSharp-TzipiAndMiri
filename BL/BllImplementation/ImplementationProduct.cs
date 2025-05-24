@@ -2,6 +2,7 @@
 using System;
 using static BO.Tools;
 
+namespace BllImplementation;
 internal class ImplementationProduct : IProduct
 {
      private DalApi.IDal _dal = DalApi.Factory.Get;

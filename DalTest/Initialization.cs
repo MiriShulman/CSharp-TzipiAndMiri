@@ -17,10 +17,10 @@ public static class Initialization
     }
     private static void createSale()
     {
-        s_dal.Sale.Create(new Sale(56, 0, 2, 220, true, DateTime.Now, DateTime.Now.AddDays(7)));
-        s_dal.Sale.Create(new Sale(43, 0, 1, 165, false, DateTime.Now, DateTime.Now.AddMonths(1)));
-        s_dal.Sale.Create(new Sale(87, 0, 2, 320, true, DateTime.Now, DateTime.Now.AddMonths(1)));
-        s_dal.Sale.Create(new Sale(25, 0, 3, 570, false, DateTime.Now, DateTime.Now.AddMonths(1)));
+        s_dal.Sale.Create(new Sale(56, 353, 2, 220, true, DateTime.Now, DateTime.Now.AddDays(7)));
+        s_dal.Sale.Create(new Sale(43, 388, 1, 90, false, DateTime.Now, DateTime.Now.AddMonths(1)));
+        s_dal.Sale.Create(new Sale(87, 387, 2, 320, true, DateTime.Now, DateTime.Now.AddMonths(1)));
+        s_dal.Sale.Create(new Sale(25, 386, 3, 540, false, DateTime.Now, DateTime.Now.AddMonths(1)));
         s_dal.Sale.Create(new Sale(94, 0, 2, 300, true, DateTime.Now, DateTime.Now.AddMonths(1)));
     }
     private static void createCustomer()
@@ -34,10 +34,8 @@ public static class Initialization
     public static void Initialize()
     {
         s_dal = Factory.Get;
-        Console.WriteLine(s_dal);
         createCustomer();
         createProduct();
         createSale();
-        //return s_dal;
     }
 }

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlImplementation
+namespace BllImplementation
 {
     public class Bl : IBL
     {
@@ -15,6 +15,6 @@ namespace BlImplementation
 
         public ISale Sale => new ImplementationSale();
 
-        public IOrder Order => throw new NotImplementedException();
+        public IOrder Order => new ImplementationOrder();
     }
 }

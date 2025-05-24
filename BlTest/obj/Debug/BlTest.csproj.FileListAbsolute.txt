@@ -20,3 +20,20 @@ Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\refint\BlTest.d
 Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.pdb
 Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.genruntimeconfig.cache
 Z:\B\שולמן מירי\c#\CSharp-TzipiAndMiri\BlTest\obj\Debug\ref\BlTest.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\bin\BlTest.exe
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\bin\BlTest.deps.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\bin\BlTest.runtimeconfig.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\bin\BlTest.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\bin\BlTest.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.csproj.AssemblyReference.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.AssemblyInfoInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.AssemblyInfo.cs
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.sourcelink.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.csproj.CopyComplete
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\BlTest\obj\Debug\refint\BlTest.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\BlTest\obj\Debug\BlTest.genruntimeconfig.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\BlTest\obj\Debug\ref\BlTest.dll

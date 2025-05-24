@@ -26,27 +26,7 @@ public class ProductImplementation : Iproduct
 
     public int Create(Product item)
     {
-        //try
-        //{
-        //    string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-        //    string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
-        //    string path = Path.Combine(parentDirectory, "xml", "products.xml");
-        //    //string path = Path.Combine(Path.GetDirectoryName("xml"), "products.xml");
-        //    Console.WriteLine(path);
-        //    XmlSerializer serializer = new XmlSerializer(typeof(List<Product>), new XmlRootAttribute("ArrayOfProducts"));
-        //    List<Product> products = GetProductList();
-        //    String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
-        //    String method = MethodBase.GetCurrentMethod().Name;
-        //    Tools.LogManager.WriteToLog(progName, method, "begin");
-        //    Product newP = products.FirstOrDefault(p => p == item);
-        //    Product p = item with { identity = Config.GetProductCode() };
-        //    products.Add(p);
-        //    using (FileStream fileStream = new FileStream(path, FileMode.Create))
-        //    {
-        //        serializer.Serialize(fileStream, products);
-        //    }
-        //    Tools.LogManager.WriteToLog(progName, method, "end");
-        //    return p.identity;
+
         try
         {
             LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "start create product");
@@ -94,9 +74,38 @@ public class ProductImplementation : Iproduct
         String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
         String method = MethodBase.GetCurrentMethod().Name;
         Tools.LogManager.WriteToLog(progName, method, "begin");
+
+        XmlSerializer serializer = new XmlSerializer(typeof(List<Product>), new XmlRootAttribute("ArrayOfProducts"));
+        
+        string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
+        string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+        string file_path = Path.Combine(parentDirectory, "xml", "products.xml");
+
         Product p = Read(id);
-        GetProductList().Remove(p);
+
+        List<Product> products = new List<Product>();
+
+        using (FileStream fs = new FileStream(file_path, FileMode.Open, FileAccess.ReadWrite))
+        {
+            try
+            {
+                products = serializer.Deserialize(fs) as List<Product>;
+                products.Remove(p);
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
+        }
+            
+        using (FileStream fsWrite = new FileStream(file_path, FileMode.Create, FileAccess.Write))
+        {
+            serializer.Serialize(fsWrite, products); // כותב את הרשימה המעודכנת
+        }
         Tools.LogManager.WriteToLog(progName, method, "end");
+
     }
     public Product? Read(int id)
     {
@@ -105,7 +114,8 @@ public class ProductImplementation : Iproduct
             String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
             String method = MethodBase.GetCurrentMethod().Name;
             Tools.LogManager.WriteToLog(progName, method, "begin");
-            Product newP = GetProductList().FirstOrDefault(p => p.identity == id);
+            List<Product> products = GetProductList();
+            Product newP = products.FirstOrDefault(p => p.identity == id);
             Tools.LogManager.WriteToLog(progName, method, "end");
             return newP;
         }
@@ -143,17 +153,37 @@ public class ProductImplementation : Iproduct
         Tools.LogManager.WriteToLog(progName, method, "begin");
         Tools.LogManager.WriteToLog(progName, method, "end");
         if (filter == null)
-            return new List<Product>(GetProductList());
-        return GetProductList().FindAll(s => filter(s)).ToList();
+            return GetProductList();
+        return GetProductList().FindAll(p => filter(p)).ToList();
 
     }
     public void Update(Product item)
     {
+        XmlSerializer serializer = new XmlSerializer(typeof(List<Product>), new XmlRootAttribute("ArrayOfProducts"));
+
+        string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
+        string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+        string file_path = Path.Combine(parentDirectory, "xml", "products.xml");
+
         String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
         String method = MethodBase.GetCurrentMethod().Name;
+
+        List<Product> products = new List<Product>();
+
         Tools.LogManager.WriteToLog(progName, method, "begin");
+        Product p = Read(item.identity);
+        Category category = (Category)p.c;
+
         Delete(item.identity);
-        GetProductList().Add(item);
+        Product newP = item with { c = category };
+        products = GetProductList();
+        
+        products.Add(newP);
+
+        using (FileStream fsWrite = new FileStream(file_path, FileMode.Create, FileAccess.Write))
+        {
+            serializer.Serialize(fsWrite, products); // כותב את הרשימה המעודכנת
+        }
         Tools.LogManager.WriteToLog(progName, method, "end");
     }
 
@@ -173,14 +203,9 @@ public class ProductImplementation : Iproduct
         catch (Exception ex)
         {
             // הדפס את השגיאה או נהל אותה בהתאם
-            Console.WriteLine("vhfhjjl;k,'lvyrdgj!!!!!!!!!!!!!!!! \n");
             Console.WriteLine($"Error: {ex.Message}");
             throw; // או נהל את השגיאה בהתאם לצורך
         }
-        //using (FileStream fileStream = new FileStream(filePath, FileMode.Open))
-        //{
-        //    return (List<Product>)serializer.Deserialize(fileStream);
-        //}
     }
 
     public List<Product> GetProductList()
@@ -188,7 +213,6 @@ public class ProductImplementation : Iproduct
         string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
         string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
         string path = Path.Combine(parentDirectory, "xml", "products.xml");
-        //string path = Path.Combine(Path.GetDirectoryName("xml"), "products.xml");
         return LoadProductsFromXml(path);
     }
     

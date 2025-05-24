@@ -67,7 +67,8 @@ namespace Dal
             bool isNeedClub;
             if (isNeedClubTemp == 1)
                 isNeedClub = true;
-            isNeedClub = false;
+            else
+                isNeedClub = false;
             Console.WriteLine("in how many dayes will the sale start?");
             int beginSaleTemp;
             int.TryParse(Console.ReadLine(), out beginSaleTemp);
@@ -120,7 +121,7 @@ namespace Dal
 
         private static void Delete<T>(ICrud<T> crud)
         {
-            Console.WriteLine("insert id's custoner to delete him");
+            Console.WriteLine("insert id's" + crud + " to delete him");
             try
             {
                 int id;
@@ -387,7 +388,6 @@ namespace Dal
 
             try
             {
-
                 MainMenu();
             }
             catch (Exception ex)
