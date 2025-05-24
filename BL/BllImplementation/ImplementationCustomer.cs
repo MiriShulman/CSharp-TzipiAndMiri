@@ -2,6 +2,8 @@
 using System;
 using static BO.Tools;
 
+using BllImplementation;
+
 internal class ImplementationCustomer : ICustomer
 {
     private DalApi.IDal _dal = DalApi.Factory.Get;

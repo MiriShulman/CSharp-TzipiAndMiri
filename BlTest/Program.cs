@@ -5,7 +5,6 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace BlTest;
 
-
     internal class Program
     {
 
@@ -58,7 +57,6 @@ namespace BlTest;
         Console.WriteLine("if you want to initialize press 1, else press 0");
             if (int.TryParse(Console.ReadLine(), out press))
             {
-                //int.TryParse(Console.ReadLine(), out press);
                 if (press == 1)
                     DalTest.Initialization.Initialize();
                 start();
