@@ -28,33 +28,116 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            textBox1 = new TextBox();
+            customerName = new Label();
+            fillCustomerName = new TextBox();
+            fillCustomerId = new TextBox();
+            customerId = new Label();
+            fillAddressCustomer = new TextBox();
+            customerAddress = new Label();
+            customerPhone = new Label();
+            sendItCustomer = new Button();
+            fillPhoneCustomer = new TextBox();
             SuspendLayout();
             // 
-            // label1
+            // customerName
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(720, 56);
-            label1.Name = "label1";
-            label1.Size = new Size(50, 20);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
+            customerName.AutoSize = true;
+            customerName.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
+            customerName.Location = new Point(515, 54);
+            customerName.Name = "customerName";
+            customerName.Size = new Size(70, 30);
+            customerName.TabIndex = 0;
+            customerName.Text = "name";
             // 
-            // textBox1
+            // fillCustomerName
             // 
-            textBox1.Location = new Point(663, 91);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 1;
+            fillCustomerName.Location = new Point(481, 92);
+            fillCustomerName.Name = "fillCustomerName";
+            fillCustomerName.Size = new Size(125, 27);
+            fillCustomerName.TabIndex = 1;
+            fillCustomerName.TextChanged += textBox1_TextChanged;
+            // 
+            // fillCustomerId
+            // 
+            fillCustomerId.Location = new Point(639, 92);
+            fillCustomerId.Name = "fillCustomerId";
+            fillCustomerId.Size = new Size(125, 27);
+            fillCustomerId.TabIndex = 3;
+            // 
+            // customerId
+            // 
+            customerId.AutoSize = true;
+            customerId.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
+            customerId.Location = new Point(688, 54);
+            customerId.Name = "customerId";
+            customerId.Size = new Size(33, 30);
+            customerId.TabIndex = 2;
+            customerId.Text = "id";
+            customerId.Click += customerId_Click;
+            // 
+            // fillAddressCustomer
+            // 
+            fillAddressCustomer.Location = new Point(302, 92);
+            fillAddressCustomer.Name = "fillAddressCustomer";
+            fillAddressCustomer.Size = new Size(125, 27);
+            fillAddressCustomer.TabIndex = 5;
+            // 
+            // customerAddress
+            // 
+            customerAddress.AutoSize = true;
+            customerAddress.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
+            customerAddress.Location = new Point(328, 55);
+            customerAddress.Name = "customerAddress";
+            customerAddress.Size = new Size(94, 30);
+            customerAddress.TabIndex = 4;
+            customerAddress.Text = "address";
+            // 
+            // customerPhone
+            // 
+            customerPhone.AutoSize = true;
+            customerPhone.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
+            customerPhone.Location = new Point(131, 55);
+            customerPhone.Name = "customerPhone";
+            customerPhone.Size = new Size(78, 30);
+            customerPhone.TabIndex = 6;
+            customerPhone.Text = "phone";
+            // 
+            // sendItCustomer
+            // 
+            sendItCustomer.BackColor = SystemColors.ButtonHighlight;
+            sendItCustomer.Font = new Font("Segoe UI", 17F, FontStyle.Bold, GraphicsUnit.Point);
+            sendItCustomer.ForeColor = Color.Coral;
+            sendItCustomer.Location = new Point(349, 225);
+            sendItCustomer.Name = "sendItCustomer";
+            sendItCustomer.Size = new Size(129, 75);
+            sendItCustomer.TabIndex = 11;
+            sendItCustomer.Text = "send it";
+            sendItCustomer.UseVisualStyleBackColor = false;
+            sendItCustomer.Click += sendItCustomer_Click;
+            // 
+            // fillPhoneCustomer
+            // 
+            fillPhoneCustomer.Location = new Point(107, 92);
+            fillPhoneCustomer.Name = "fillPhoneCustomer";
+            fillPhoneCustomer.Size = new Size(125, 27);
+            fillPhoneCustomer.TabIndex = 12;
             // 
             // CreateOrUpdateCustomer
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Cornsilk;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
+            Controls.Add(fillPhoneCustomer);
+            Controls.Add(sendItCustomer);
+            Controls.Add(customerPhone);
+            Controls.Add(fillAddressCustomer);
+            Controls.Add(customerAddress);
+            Controls.Add(fillCustomerId);
+            Controls.Add(customerId);
+            Controls.Add(fillCustomerName);
+            Controls.Add(customerName);
+            ForeColor = Color.Coral;
             Name = "CreateOrUpdateCustomer";
             Text = "create or update";
             ResumeLayout(false);
@@ -63,7 +146,14 @@
 
         #endregion
 
-        private Label label1;
-        private TextBox textBox1;
+        private Label customerName;
+        private TextBox fillCustomerName;
+        private TextBox fillCustomerId;
+        private Label customerId;
+        private TextBox fillAddressCustomer;
+        private Label customerAddress;
+        private Label customerPhone;
+        private Button sendItCustomer;
+        private TextBox fillPhoneCustomer;
     }
 }

@@ -1,5 +1,5 @@
 ﻿using BlApi;
-using BlImplementation;
+using BllImplementation;
 using DalApi;
 using System;
 using System.Collections.Generic;
@@ -33,19 +33,23 @@ namespace client
             switch (type)
             {
                 case "product":
-                        s_Ibl.Product.Delete(id);
-                        break;
+                    s_Ibl.Product.Delete(id);
+                    break;
                 case "customer":
-                        s_Ibl.Customer.Delete(id);
-                        break;
+                    s_Ibl.Customer.Delete(id);
+                    break;
                 case "sale":
-                        s_Ibl.Sale.Delete(id);
-                        break;
+                    s_Ibl.Sale.Delete(id);
+                    break;
                 default:
                     Console.WriteLine("this function on this type can't been");
                     break;
             }
         }
 
+        private void id_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

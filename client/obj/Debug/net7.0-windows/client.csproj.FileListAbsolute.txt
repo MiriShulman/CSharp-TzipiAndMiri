@@ -1,0 +1,44 @@
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net7.0-windows\client.exe
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net7.0-windows\DalList.cs
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net7.0-windows\client.deps.json
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net7.0-windows\client.runtimeconfig.json
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net7.0-windows\client.dll
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net7.0-windows\client.pdb
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net7.0-windows\BL.dll
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net7.0-windows\DalFacade.dll
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net7.0-windows\DalList.dll
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net7.0-windows\Tools.dll
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net7.0-windows\BL.pdb
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net7.0-windows\DalFacade.pdb
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net7.0-windows\DalList.pdb
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net7.0-windows\Tools.pdb
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.csproj.AssemblyReference.cache
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.admin.resources
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.CreateOrUpdateCustomer.resources
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.CreateOrUpdateProduct.resources
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.CreateOrUpdateSale.resources
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.delete.resources
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.home.resources
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\UI.isPreferedCustomer.resources
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.options.resources
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.Properties.Resources.resources
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.Read.resources
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.ReadAll.resources
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.Saleman.resources
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.csproj.GenerateResource.cache
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.GeneratedMSBuildEditorConfig.editorconfig
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.AssemblyInfoInputs.cache
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.AssemblyInfo.cs
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.csproj.CoreCompileInputs.cache
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.csproj.CopyComplete
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.dll
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\refint\client.dll
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.pdb
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.genruntimeconfig.cache
+D:\יד\C#\21-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\ref\client.dll
+C:\Users\1\Desktop\מקצועות יד\c#\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.dll
+C:\Users\1\Desktop\מקצועות יד\c#\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\refint\client.dll
+C:\Users\1\Desktop\מקצועות יד\c#\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.pdb
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\refint\client.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net7.0-windows\client.pdb

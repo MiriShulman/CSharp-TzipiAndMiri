@@ -48,126 +48,124 @@
             // name
             // 
             name.AutoSize = true;
-            name.Location = new Point(601, 44);
+            name.Location = new Point(687, 58);
             name.Name = "name";
-            name.Size = new Size(37, 15);
+            name.Size = new Size(46, 20);
             name.TabIndex = 0;
             name.Text = "name";
             // 
             // price
             // 
             price.AutoSize = true;
-            price.Location = new Point(466, 44);
+            price.Location = new Point(532, 58);
             price.Name = "price";
-            price.Size = new Size(33, 15);
+            price.Size = new Size(42, 20);
             price.TabIndex = 1;
             price.Text = "price";
             // 
             // category
             // 
             category.AutoSize = true;
-            category.Location = new Point(309, 44);
+            category.Location = new Point(353, 58);
             category.Name = "category";
-            category.Size = new Size(53, 15);
+            category.Size = new Size(67, 20);
             category.TabIndex = 2;
             category.Text = "category";
             // 
             // insertName
             // 
-            insertName.Location = new Point(580, 62);
-            insertName.Margin = new Padding(3, 2, 3, 2);
+            insertName.Location = new Point(663, 83);
             insertName.Name = "insertName";
-            insertName.Size = new Size(110, 23);
+            insertName.Size = new Size(125, 27);
             insertName.TabIndex = 3;
             // 
             // insertPrice
             // 
-            insertPrice.Location = new Point(427, 63);
-            insertPrice.Margin = new Padding(3, 2, 3, 2);
+            insertPrice.Location = new Point(488, 84);
             insertPrice.Name = "insertPrice";
-            insertPrice.Size = new Size(131, 23);
+            insertPrice.Size = new Size(150, 27);
             insertPrice.TabIndex = 4;
             // 
             // chooseCategory
             // 
             chooseCategory.FormattingEnabled = true;
-            chooseCategory.Location = new Point(270, 63);
-            chooseCategory.Margin = new Padding(3, 2, 3, 2);
+            chooseCategory.Location = new Point(308, 84);
             chooseCategory.Name = "chooseCategory";
-            chooseCategory.Size = new Size(133, 23);
+            chooseCategory.Size = new Size(151, 28);
             chooseCategory.TabIndex = 5;
+            chooseCategory.SelectedIndexChanged += chooseCategory_SelectedIndexChanged;
             // 
             // amount
             // 
-            amount.Location = new Point(147, 40);
-            amount.Margin = new Padding(3, 2, 3, 2);
+            amount.AccessibleRole = AccessibleRole.None;
+            amount.BackColor = Color.WhiteSmoke;
+            amount.Location = new Point(168, 54);
             amount.Name = "amount";
-            amount.Size = new Size(82, 22);
+            amount.Size = new Size(94, 29);
             amount.TabIndex = 6;
             amount.Text = "amount";
-            amount.UseVisualStyleBackColor = true;
+            amount.UseVisualStyleBackColor = false;
             // 
             // insertAmount
             // 
-            insertAmount.Location = new Point(120, 67);
-            insertAmount.Margin = new Padding(3, 2, 3, 2);
+            insertAmount.Location = new Point(137, 89);
             insertAmount.Name = "insertAmount";
-            insertAmount.Size = new Size(131, 23);
+            insertAmount.Size = new Size(150, 27);
             insertAmount.TabIndex = 7;
             // 
             // salesOfProduct
             // 
             salesOfProduct.FormattingEnabled = true;
-            salesOfProduct.ItemHeight = 15;
-            salesOfProduct.Location = new Point(510, 138);
-            salesOfProduct.Margin = new Padding(3, 2, 3, 2);
+            salesOfProduct.ItemHeight = 20;
+            salesOfProduct.Location = new Point(583, 184);
             salesOfProduct.Name = "salesOfProduct";
-            salesOfProduct.Size = new Size(132, 79);
+            salesOfProduct.Size = new Size(150, 104);
             salesOfProduct.TabIndex = 8;
             // 
             // SaleInProduct
             // 
             SaleInProduct.AutoSize = true;
-            SaleInProduct.Location = new Point(523, 121);
+            SaleInProduct.Location = new Point(598, 161);
             SaleInProduct.Name = "SaleInProduct";
-            SaleInProduct.Size = new Size(86, 15);
+            SaleInProduct.Size = new Size(108, 20);
             SaleInProduct.TabIndex = 9;
             SaleInProduct.Text = "Sale In Product";
-            SaleInProduct.Click += SaleInProduct_Click;
             // 
             // sendIt
             // 
-            sendIt.Location = new Point(299, 194);
-            sendIt.Margin = new Padding(3, 2, 3, 2);
+            sendIt.BackColor = Color.Coral;
+            sendIt.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            sendIt.ForeColor = SystemColors.ButtonFace;
+            sendIt.Location = new Point(308, 259);
             sendIt.Name = "sendIt";
-            sendIt.Size = new Size(82, 22);
+            sendIt.Size = new Size(128, 54);
             sendIt.TabIndex = 10;
             sendIt.Text = "send it";
-            sendIt.UseVisualStyleBackColor = true;
+            sendIt.UseVisualStyleBackColor = false;
             sendIt.Click += sendIt_Click;
             // 
             // id
             // 
             id.AutoSize = true;
-            id.Location = new Point(42, 40);
+            id.Location = new Point(48, 53);
             id.Name = "id";
-            id.Size = new Size(17, 15);
+            id.Size = new Size(22, 20);
             id.TabIndex = 11;
             id.Text = "id";
             // 
             // insertId
             // 
-            insertId.Location = new Point(5, 67);
-            insertId.Margin = new Padding(3, 2, 3, 2);
+            insertId.Location = new Point(6, 89);
             insertId.Name = "insertId";
-            insertId.Size = new Size(110, 23);
+            insertId.Size = new Size(125, 27);
             insertId.TabIndex = 12;
             // 
             // CreateOrUpdateProduct
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(700, 338);
+            BackColor = Color.Cornsilk;
+            ClientSize = new Size(800, 450);
             Controls.Add(insertId);
             Controls.Add(id);
             Controls.Add(sendIt);
@@ -181,9 +179,10 @@
             Controls.Add(category);
             Controls.Add(price);
             Controls.Add(name);
-            Margin = new Padding(3, 2, 3, 2);
+            ForeColor = Color.DarkOrange;
             Name = "CreateOrUpdateProduct";
             Text = "Create or update product";
+            Load += CreateOrUpdateProduct_Load;
             ((System.ComponentModel.ISupportInitialize)insertPrice).EndInit();
             ((System.ComponentModel.ISupportInitialize)insertAmount).EndInit();
             ResumeLayout(false);

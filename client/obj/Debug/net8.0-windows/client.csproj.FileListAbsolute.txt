@@ -1,0 +1,82 @@
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\client.exe
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\DalList.cs
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\BL.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\DalFacade.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\DalList.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\DalXml.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\Tools.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\BL.pdb
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\DalFacade.pdb
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\DalList.pdb
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\DalXml.pdb
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\Tools.pdb
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.csproj.AssemblyReference.cache
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.admin.resources
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.CreateOrUpdateCustomer.resources
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.CreateOrUpdateProduct.resources
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.CreateOrUpdateSale.resources
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.delete.resources
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.home.resources
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.isPreferedCustomer.resources
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.options.resources
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.Properties.Resources.resources
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.Read.resources
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.ReadAll.resources
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.Saleman.resources
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.csproj.GenerateResource.cache
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.AssemblyInfoInputs.cache
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.AssemblyInfo.cs
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.csproj.CoreCompileInputs.cache
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.sourcelink.json
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.csproj.Up2Date
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\refint\client.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.pdb
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\client.deps.json
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\client.runtimeconfig.json
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\client.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\client.pdb
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.genruntimeconfig.cache
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\ref\client.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\client.exe
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\DalList.cs
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\client.deps.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\client.runtimeconfig.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\client.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\client.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\BL.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\DalFacade.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\DalList.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\DalXml.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\Tools.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\BL.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\DalFacade.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\DalList.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\DalXml.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\bin\Debug\net8.0-windows\Tools.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.csproj.AssemblyReference.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.admin.resources
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.CreateOrUpdateCustomer.resources
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.CreateOrUpdateProduct.resources
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.CreateOrUpdateSale.resources
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.delete.resources
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.home.resources
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.isPreferedCustomer.resources
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.options.resources
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.Properties.Resources.resources
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.Read.resources
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.ReadAll.resources
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.Saleman.resources
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.csproj.GenerateResource.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.AssemblyInfoInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.AssemblyInfo.cs
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.sourcelink.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.csproj.CopyComplete
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\refint\client.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\client.genruntimeconfig.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\client\obj\Debug\net8.0-windows\ref\client.dll

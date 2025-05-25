@@ -36,3 +36,31 @@ C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CShar
 C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\BL\obj\Debug\refint\BL.dll
 C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\BL\obj\Debug\BL.pdb
 C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\BL\obj\Debug\ref\BL.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\bin\BL.deps.json
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\bin\BL.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\bin\BL.pdb
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.AssemblyInfo.cs
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.sourcelink.json
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.csproj.Up2Date
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\BL\obj\Debug\refint\BL.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\BL\obj\Debug\BL.pdb
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\BL\obj\Debug\ref\BL.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\bin\BL.deps.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\bin\BL.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\bin\BL.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\BL\obj\Debug\BL.AssemblyInfo.cs
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\BL\obj\Debug\BL.sourcelink.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\BL\obj\Debug\BL.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\BL\obj\Debug\refint\BL.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\BL\obj\Debug\BL.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\BL\obj\Debug\ref\BL.dll

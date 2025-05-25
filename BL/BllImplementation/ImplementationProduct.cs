@@ -34,12 +34,14 @@ internal class ImplementationProduct : IProduct
         }
 
     //stage 1 only, Reads all entity objects and stage 2
-    public List<BO.Product> ReadAll(Func<BO.Product, bool>? filter = null)
+    public List<BO.Product> ReadAll(Func<BO.Product, bool> filter)
         {
             try
             {
-                return _dal.Product.ReadAll(p => filter(p.CastProduct()))
-                    .Select (p => p.CastProduct()).ToList();
+            Func<DO.Product, bool>? filterDO = filter == null ? null : (p => filter(p.CastProduct()));
+            return [.. _dal.Product.ReadAll(filterDO).Select(p => p!.CastProduct())];
+            //return _dal.Product.ReadAll(p => filter(p.CastProduct()))
+            //        .Select (p => p.CastProduct()).ToList();
             }
             catch(Exception e) {
                  throw e;
@@ -87,7 +89,7 @@ internal class ImplementationProduct : IProduct
         try
         {
 
-            return _dal.Sale.ReadAll(s => s.code == ProductId && s.beginSale <= DateTime.Now && s.endSale >= DateTime.Now && (s.isNeedClub == false || s.isNeedClub == PreferredCustomer)).Select(s => s.CastSaleToSaleInProduct()).ToList();
+            return _dal.Sale.ReadAll(s => s.code == ProductId && s.beginSale <= DateTime.Now && s.endSale >= DateTime.Now && (s.isNeedClub == false || s.isNeedClub == PreferredCustomer)).Select(s => s.CastSale().CastFromSaleToSaleInOrder()).ToList();
 
         }
         catch (Exception e)

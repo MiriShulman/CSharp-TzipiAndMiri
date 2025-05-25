@@ -92,14 +92,24 @@ internal class ImplementationCustomer : ICustomer
     {
         try
         {
-            if (_dal.Customer.ReadAll().FirstOrDefault(c => c.id == id) == null)
-                return false;
-            return true;
+            DO.Customer? c = _dal.Customer.Read(cust => cust.id == id);
+            return !(c == null);
         }
         catch (Exception e)
         {
-            throw e;
+            throw new Exception(e.Message);
         }
+        //try
+        //{
+        //    if (_dal.Customer.ReadAll().FirstOrDefault(c => c.id == id) == null)
+        //        return false;
+        //    return true;
+        //}
+        //catch (Exception e)
+        //{
+        //    throw e;
+        //}
+
 
     }
 }

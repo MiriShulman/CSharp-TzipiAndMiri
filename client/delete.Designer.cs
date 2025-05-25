@@ -35,25 +35,29 @@
             // 
             // id
             // 
-            id.Location = new Point(579, 87);
+            id.Font = new Font("Stencil", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            id.Location = new Point(378, 71);
             id.Name = "id";
-            id.Size = new Size(94, 29);
+            id.Size = new Size(132, 44);
             id.TabIndex = 0;
             id.Text = "id";
             id.UseVisualStyleBackColor = true;
+            id.Click += id_Click;
             // 
             // enterId
             // 
-            enterId.Location = new Point(564, 142);
+            enterId.Font = new Font("Stencil", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            enterId.Location = new Point(358, 144);
             enterId.Name = "enterId";
-            enterId.Size = new Size(125, 27);
+            enterId.Size = new Size(163, 35);
             enterId.TabIndex = 1;
             // 
             // del
             // 
-            del.Location = new Point(579, 210);
+            del.Font = new Font("Stencil", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            del.Location = new Point(378, 234);
             del.Name = "del";
-            del.Size = new Size(94, 29);
+            del.Size = new Size(132, 44);
             del.TabIndex = 2;
             del.Text = "delete";
             del.UseVisualStyleBackColor = true;
@@ -63,6 +67,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightCyan;
             ClientSize = new Size(800, 450);
             Controls.Add(del);
             Controls.Add(enterId);

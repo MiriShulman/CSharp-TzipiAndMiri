@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfProducts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Product>
-    <identity>353</identity>
-    <name>cheesCake</name>
-    <price>180</price>
-    <amount>20</amount>
-    <c>milkeyCakes</c>
-  </Product>
-  <Product>
-    <identity>521</identity>
-    <name>chocolateCake</name>
-    <price>200</price>
-    <amount>15</amount>
-    <c>birthdayCakes</c>
-  </Product>
-  <Product>
-    <identity>523</identity>
-    <name>cheesCake</name>
-    <price>100</price>
-    <amount>20</amount>
-    <c>milkeyCakes</c>
-  </Product>
-  <Product>
-    <identity>524</identity>
-    <name>tfilinCake</name>
-    <price>110</price>
-    <amount>4</amount>
-    <c>barOrBatMitzva</c>
-  </Product>
-  <Product>
-    <identity>525</identity>
-    <name>meorathimCake</name>
-    <price>140</price>
-    <amount>8</amount>
-    <c>cakesCombinedWithPicture</c>
-  </Product>
-  <Product>
     <identity>522</identity>
     <name>calaCake</name>
     <price>180</price>
     <amount>1</amount>
     <c>barCakes</c>
+  </Product>
+  <Product>
+    <identity>525</identity>
+    <name>meorathimCake</name>
+    <price>140</price>
+    <amount>7</amount>
+    <c>cakesCombinedWithPicture</c>
   </Product>
 </ArrayOfProducts>

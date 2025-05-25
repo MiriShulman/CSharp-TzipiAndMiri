@@ -29,7 +29,7 @@ namespace client
             int amount = (int)insertAmount.Value;
             double price = (double)insertAmount.Value;
             string str = chooseCategory.Text;
-            Category category = (Category)Enum.Parse(typeof(Category), chooseCategory.SelectedItem.ToString());
+            Category category = (Category)chooseCategory.SelectedItem;
             Product p = new Product(id, name, price, amount, category);
             switch (funcName)
             {
@@ -42,7 +42,12 @@ namespace client
             }
         }
 
-        private void SaleInProduct_Click(object sender, EventArgs e)
+        private void CreateOrUpdateProduct_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chooseCategory_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

@@ -22,16 +22,19 @@ namespace client
         private void customers_Click(object sender, EventArgs e)
         {
             options o = new options("customer");
+            o.Show();
         }
 
         private void sales_Click(object sender, EventArgs e)
         {
             options o = new options("sale");
+            o.Show();
         }
 
         private void products_Click(object sender, EventArgs e)
         {
             options o = new options("product");
+            o.Show();
         }
 
         //private void products_Click(object sender, EventArgs e)

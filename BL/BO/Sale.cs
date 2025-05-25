@@ -28,5 +28,10 @@ namespace BO
         }
 
         public override string ToString() => this.ToStringProperty();
+
+        internal object CastSaleToSaleInProduct(Func<Sale> castSale, int? productAmount)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

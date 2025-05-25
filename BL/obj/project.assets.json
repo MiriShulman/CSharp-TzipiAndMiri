@@ -26,6 +26,20 @@
           "bin/placeholder/DalList.dll": {}
         }
       },
+      "DalXml/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DalFacade": "1.0.0",
+          "Tools": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DalXml.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DalXml.dll": {}
+        }
+      },
       "Tools/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -49,6 +63,11 @@
       "path": "../DalList/DalList.csproj",
       "msbuildProject": "../DalList/DalList.csproj"
     },
+    "DalXml/1.0.0": {
+      "type": "project",
+      "path": "../DalXml/DalXml.csproj",
+      "msbuildProject": "../DalXml/DalXml.csproj"
+    },
     "Tools/1.0.0": {
       "type": "project",
       "path": "../Tools/Tools.csproj",
@@ -58,27 +77,28 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "DalFacade >= 1.0.0",
-      "DalList >= 1.0.0"
+      "DalList >= 1.0.0",
+      "DalXml >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1\\.nuget\\packages\\": {},
+    "C:\\Users\\huser\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\Documents\\מירי לימודים\\יד\\c# מתקדם\\21-05-2025\\CSharp-TzipiAndMiri\\BL\\BL.csproj",
+      "projectUniqueName": "Z:\\B\\קלרברג ציפורה\\c#\\CSharp-TzipiAndMiri\\BL\\BL.csproj",
       "projectName": "BL",
-      "projectPath": "C:\\Users\\1\\Documents\\מירי לימודים\\יד\\c# מתקדם\\21-05-2025\\CSharp-TzipiAndMiri\\BL\\BL.csproj",
-      "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\Documents\\מירי לימודים\\יד\\c# מתקדם\\21-05-2025\\CSharp-TzipiAndMiri\\BL\\obj\\",
+      "projectPath": "Z:\\B\\קלרברג ציפורה\\c#\\CSharp-TzipiAndMiri\\BL\\BL.csproj",
+      "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
+      "outputPath": "Z:\\B\\קלרברג ציפורה\\c#\\CSharp-TzipiAndMiri\\BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -94,11 +114,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\1\\Documents\\מירי לימודים\\יד\\c# מתקדם\\21-05-2025\\CSharp-TzipiAndMiri\\DalFacade\\DalFacade.csproj": {
-              "projectPath": "C:\\Users\\1\\Documents\\מירי לימודים\\יד\\c# מתקדם\\21-05-2025\\CSharp-TzipiAndMiri\\DalFacade\\DalFacade.csproj"
+            "Z:\\B\\קלרברג ציפורה\\c#\\CSharp-TzipiAndMiri\\DalFacade\\DalFacade.csproj": {
+              "projectPath": "Z:\\B\\קלרברג ציפורה\\c#\\CSharp-TzipiAndMiri\\DalFacade\\DalFacade.csproj"
             },
-            "C:\\Users\\1\\Documents\\מירי לימודים\\יד\\c# מתקדם\\21-05-2025\\CSharp-TzipiAndMiri\\DalList\\DalList.csproj": {
-              "projectPath": "C:\\Users\\1\\Documents\\מירי לימודים\\יד\\c# מתקדם\\21-05-2025\\CSharp-TzipiAndMiri\\DalList\\DalList.csproj"
+            "Z:\\B\\קלרברג ציפורה\\c#\\CSharp-TzipiAndMiri\\DalList\\DalList.csproj": {
+              "projectPath": "Z:\\B\\קלרברג ציפורה\\c#\\CSharp-TzipiAndMiri\\DalList\\DalList.csproj"
+            },
+            "Z:\\B\\קלרברג ציפורה\\c#\\CSharp-TzipiAndMiri\\DalXml\\DalXml.csproj": {
+              "projectPath": "Z:\\B\\קלרברג ציפורה\\c#\\CSharp-TzipiAndMiri\\DalXml\\DalXml.csproj"
             }
           }
         }
@@ -107,7 +130,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -128,7 +157,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

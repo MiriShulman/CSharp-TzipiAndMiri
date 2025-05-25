@@ -108,3 +108,33 @@ C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CShar
 C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalList\obj\Debug\refint\DalList.dll
 C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.pdb
 C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalList\obj\Debug\ref\DalList.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\bin\DalList.cs
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\bin\DalList.deps.json
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\bin\DalList.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\bin\DalList.pdb
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.AssemblyInfo.cs
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.sourcelink.json
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.csproj.Up2Date
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\refint\DalList.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.pdb
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalList\obj\Debug\ref\DalList.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\bin\DalList.cs
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\bin\DalList.deps.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\bin\DalList.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\bin\DalList.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.sourcelink.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.csproj.CopyComplete
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalList\obj\Debug\refint\DalList.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalList\obj\Debug\DalList.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalList\obj\Debug\ref\DalList.dll

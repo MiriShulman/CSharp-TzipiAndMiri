@@ -4,7 +4,9 @@ namespace BlApi;
 
 public class Factory
 {
-    public static IBL Get{
-        get { return new Bl(); }
+  
+    public static IBL Get()
+    {
+        return new Bl();
     }
 }

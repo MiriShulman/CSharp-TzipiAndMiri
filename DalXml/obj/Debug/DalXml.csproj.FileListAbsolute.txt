@@ -61,3 +61,31 @@ C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CShar
 C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalXml\obj\Debug\refint\DalXml.dll
 C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.pdb
 C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\21-05-2025\CSharp-TzipiAndMiri\DalXml\obj\Debug\ref\DalXml.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\bin\DalXml.deps.json
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\bin\DalXml.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\bin\DalXml.pdb
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.sourcelink.json
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.csproj.Up2Date
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\refint\DalXml.dll
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.pdb
+Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\DalXml\obj\Debug\ref\DalXml.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\bin\DalXml.deps.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\bin\DalXml.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\bin\DalXml.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.sourcelink.json
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.csproj.CopyComplete
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalXml\obj\Debug\refint\DalXml.dll
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalXml\obj\Debug\DalXml.pdb
+C:\Users\1\Documents\מירי לימודים\יד\c# מתקדם\25-05-2025\CSharp-TzipiAndMiri\DalXml\obj\Debug\ref\DalXml.dll

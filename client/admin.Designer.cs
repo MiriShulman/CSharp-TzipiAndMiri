@@ -36,12 +36,11 @@
             // customers
             // 
             customers.BackColor = Color.LightPink;
-            customers.Font = new Font("Segoe UI", 15F);
-            customers.Location = new Point(461, 124);
-            customers.Margin = new Padding(3, 2, 3, 2);
+            customers.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            customers.Location = new Point(596, 193);
             customers.Name = "customers";
             customers.RightToLeft = RightToLeft.Yes;
-            customers.Size = new Size(122, 48);
+            customers.Size = new Size(222, 80);
             customers.TabIndex = 0;
             customers.Text = "customers";
             customers.UseVisualStyleBackColor = false;
@@ -50,11 +49,10 @@
             // sales
             // 
             sales.BackColor = Color.LightPink;
-            sales.Font = new Font("Segoe UI", 15F);
-            sales.Location = new Point(298, 124);
-            sales.Margin = new Padding(3, 2, 3, 2);
+            sales.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            sales.Location = new Point(357, 193);
             sales.Name = "sales";
-            sales.Size = new Size(122, 48);
+            sales.Size = new Size(222, 80);
             sales.TabIndex = 1;
             sales.Text = "sales";
             sales.UseVisualStyleBackColor = false;
@@ -63,11 +61,10 @@
             // products
             // 
             products.BackColor = Color.LightPink;
-            products.Font = new Font("Segoe UI", 15F);
-            products.Location = new Point(120, 124);
-            products.Margin = new Padding(3, 2, 3, 2);
+            products.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            products.Location = new Point(118, 193);
             products.Name = "products";
-            products.Size = new Size(122, 48);
+            products.Size = new Size(222, 80);
             products.TabIndex = 2;
             products.Text = "products";
             products.UseVisualStyleBackColor = false;
@@ -75,14 +72,13 @@
             // 
             // admin
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LavenderBlush;
-            ClientSize = new Size(700, 338);
+            ClientSize = new Size(905, 509);
             Controls.Add(products);
             Controls.Add(sales);
             Controls.Add(customers);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "admin";
             Text = "enter";
             ResumeLayout(false);

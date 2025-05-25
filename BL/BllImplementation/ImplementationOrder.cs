@@ -13,36 +13,25 @@ internal class ImplementationOrder : IOrder
 
 
     //return all relevant sales for this product
-    public void SearchSaleForProduct(BO.ProductInOrder? product, bool IsPreferredCustomer)
+    public void SearchSaleForProduct(BO.ProductInOrder product, bool IsPreferredCustomer)
     {
         try
         {
-            if (IsPreferredCustomer)
-            {
-                product.SalesInProducts = (from sale in _dal.Sale.ReadAll()
-                                         where sale.code == product.ProductId &&
-                                         sale.beginSale < DateTime.Now && sale.endSale > DateTime.Now
-                                         && product.ProductAmount >= sale.minimumAmount
-                                         orderby sale.minimumAmount / sale.sum
-                                         select sale.CastSaleToSaleInProduct()).ToList();
-                product.SalesInProducts = product.SalesInProducts.Count > 0 ? product.SalesInProducts : new List<SaleInProduct>();
-
-            }
-            else
-            {
-                product.SalesInProducts = (from sale in _dal.Sale.ReadAll()
-                                         where sale.id == product.ProductId &&
-                                         sale.beginSale > DateTime.Now && sale.endSale < DateTime.Now
-                                         && product.ProductAmount >= sale.minimumAmount
-                                         && sale.isNeedClub == false
-                                         orderby sale.minimumAmount / sale.sum
-                                         select sale.CastSaleToSaleInProduct()).ToList();
-            }
+            product.SalesInProducts = [.. _dal.Sale.ReadAll(sale => sale.id == product.ProductId && 
+                                        (sale.isNeedClub == false || IsPreferredCustomer) && 
+                                        sale.minimumAmount <= product.ProductAmount && 
+                                        DateTime.Now >= sale.beginSale && DateTime.Now <= sale.endSale)
+        .Select(s => s!.CastSale().CastFromSaleToSaleInOrder())
+        .OrderBy(s => s.Price / s.Amount)];
         }
-        catch (Exception ex) { throw ex; }
+        catch (Exception e)
+        {
+            throw new Exception(e.Message);
+        }
+
 
     }
-    //calc the total price of this product
+
     public void CalcTotalPriceForProduct(BO.ProductInOrder? product)
     {
         try
@@ -75,9 +64,7 @@ internal class ImplementationOrder : IOrder
             foreach (BO.ProductInOrder product in order.ProductsInOrder)
             {
                 total += product.TotalSum;
-                //CalcTotalPriceForProduct(product);
-                //if (total != null)
-                //    total += product.ProductBasePrice;
+
             }
             order.Price = total;
         }
@@ -85,47 +72,36 @@ internal class ImplementationOrder : IOrder
     }
 
 
-    //return list of sales that add in this product's add
-
     public List<BO.SaleInProduct> AddProductToOrder(BO.Order order, int productId, int amount)
     {
-        BO.ProductInOrder p;
         try
         {
-            DO.Product product = _dal.Product.Read(productId);
-            if (order.ProductsInOrder == null)
+            
+            if (order == null)
+                throw new BlIsNotOption("ERROR! \t invalid input");
+            DO.Product p = _dal.Product.Read(productId);
+            BO.ProductInOrder product = order.ProductsInOrder?.FirstOrDefault(p => p.ProductId == productId);
+            if (product != null)
             {
-                if (amount <= product.amount)
-                {
-                    order.ProductsInOrder = new List<ProductInOrder>();
-                    order.ProductsInOrder.Add(CastProductToProductInOrder(product, amount));
-                    implementationProduct.Update(new Product(product.identity, product.name, product.price, product.amount - amount, CastCategory(product.c)));
-                }
+
+                if (p.amount >= amount + product.ProductAmount)
+                    product.ProductAmount = amount + product.ProductAmount;
                 else
-                {
-                    throw new Exception();
-                }
+                    throw new BlNotEnugh("There are not enough in stock");
             }
             else
             {
-                p = order.ProductsInOrder.FirstOrDefault(p => p.ProductId == productId);
-                if (p != null)
-                {
-                    if (p.ProductAmount + amount <= product.amount)
-                    {
-                        p.ProductAmount += amount;
-                    }
-                    else
-                        throw new Exception("e");
-                }
+                product = CastProductToProductInOrder(p,amount);
+                product.ProductAmount = amount;
+                if (p.amount >= amount)
+                    order.ProductsInOrder?.Add(product);
+                else
+                    throw new BlNotEnugh("There are not enough in stock");
             }
-            p = order.ProductsInOrder.FirstOrDefault(p => p.ProductId == productId);
-            
-            SearchSaleForProduct(p, order.PreferredCustomer);
-            CalcTotalPriceForProduct(p);
+            SearchSaleForProduct(product, order.PreferredCustomer);
+            CalcTotalPriceForProduct(product);
             CalcTotalPrice(order);
-            return p.SalesInProducts;
-
+            return product.SalesInProducts;
         }
         catch (Exception e)
         {

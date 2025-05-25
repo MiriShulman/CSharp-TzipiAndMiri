@@ -30,13 +30,54 @@ namespace client
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "ReadAll";
-            
+            TList = new Label();
+            list = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)list).BeginInit();
+            SuspendLayout();
+            // 
+            // TList
+            // 
+            TList.AutoSize = true;
+            TList.Font = new Font("Stencil", 15F, FontStyle.Bold);
+            TList.ForeColor = Color.DarkGreen;
+            TList.Location = new Point(274, 31);
+            TList.Name = "TList";
+            TList.Size = new Size(175, 24);
+            TList.TabIndex = 0;
+            TList.Text = "רשימת המוצרים בחנות";
+            // 
+            // list
+            // 
+            list.BackgroundColor = Color.White;
+            list.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            list.Location = new Point(128, 80);
+            list.Margin = new Padding(3, 2, 3, 2);
+            list.Name = "list";
+            list.RowHeadersWidth = 51;
+            list.RowTemplate.Height = 29;
+            list.Size = new Size(456, 213);
+            list.TabIndex = 3;
+            list.CellContentClick += productsListView_CellContentClick;
+            // 
+            // ReadAll
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightCyan;
+            ClientSize = new Size(717, 354);
+            Controls.Add(list);
+            Controls.Add(TList);
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "ReadAll";
+            Text = "ReadAll";
+            ((System.ComponentModel.ISupportInitialize)list).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label TList;
+        private DataGridView list;
     }
 }

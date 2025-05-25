@@ -1,4 +1,5 @@
 ﻿using BlApi;
+using BO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,22 +21,25 @@ namespace client
             InitializeComponent();
         }
 
-        private static IBL s_Ibl;
+        private static IBL s_Ibl = BlApi.Factory.Get();
 
         private void find_Click(object sender, EventArgs e)
         {
             int id;
-            int.TryParse(Console.ReadLine(), out id);
+            int.TryParse(enterId.Text, out id);
             switch (type)
             {
                 case "product":
-                    s_Ibl.Product.Read(id);
+                    Product p =  s_Ibl.Product.Read(id);
+                    insert_me.Text = p.ToString();
                     break;
                 case "customer":
-                    s_Ibl.Customer.Read(id);
+                    Customer c = s_Ibl.Customer.Read(id);
+                    insert_me.Text = c.ToString();
                     break;
                 case "sale":
-                    s_Ibl.Sale.Read(id);
+                    Sale s = s_Ibl.Sale.Read(id);
+                    insert_me.Text = s.ToString();
                     break;
                 default:
                     Console.WriteLine("this function on this type can't been");
@@ -43,5 +47,9 @@ namespace client
             }
         }
 
+        private void enterId_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

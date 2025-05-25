@@ -52,15 +52,17 @@ namespace BO
         {
             return new DO.Sale(sale.Code, sale.Id, sale.MinimumAmount, sale.Sum, sale.IsNeedClub, sale.BeginSale, sale.EndSale);
         }
+        public static BO.SaleInProduct CastFromSaleToSaleInOrder(this BO.Sale s)
+                        => new(s.Id, s.MinimumAmount, s.Sum, s.IsNeedClub);
 
-        public static SaleInProduct CastSaleToSaleInProduct(this DO.Sale s)
-        {
-            return new BO.SaleInProduct(s.code, s.minimumAmount, s.sum, s.isNeedClub);
-        }
+        //public static SaleInProduct CastSaleToSaleInProduct(this DO.Sale s)
+        //{
+        //    return new BO.SaleInProduct(s.code, s.minimumAmount, s.sum, s.isNeedClub);
+        //}
 
-        public static ProductInOrder CastProductToProductInOrder(DO.Product p, int amount)
+        public static ProductInOrder CastProductToProductInOrder(DO.Product p,int amount)
         {
-            return new ProductInOrder(p.identity, p.name, p.price, amount, null, p.price * amount);
+            return new ProductInOrder(p.identity, p.name, p.price,amount, null, p.price * amount);
         }
 
         public static DO.Category CastCategory(BO.Category cat)

@@ -1,6 +1,16 @@
 ﻿namespace BO;
 
 [Serializable]
+public class BlNotEnugh : Exception
+{
+    public BlNotEnugh(String exception) : base(exception)
+    {
+    }
+
+    public BlNotEnugh(String exception, Exception innerException) : base(exception, innerException)
+    {
+    }
+}
 public class BlIdNotExist : Exception
 {
     public BlIdNotExist(String exception) : base(exception)

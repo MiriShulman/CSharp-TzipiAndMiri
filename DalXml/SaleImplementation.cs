@@ -32,8 +32,14 @@ internal class SaleImplementation : Isale
             List<Sale>? sales = new List<Sale>();
             XmlSerializer serializer = new XmlSerializer(typeof(List<Sale>), new XmlRootAttribute("ArrayOfSales"));
 
-            string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-            string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+            string parentDirectory = System.IO.Path.GetFullPath("SaleImplementation.cs");
+            string last = Path.GetFileName(parentDirectory);
+            do
+            {
+                parentDirectory = Directory.GetParent(parentDirectory).FullName; // מקבל את התיקייה ההורה
+                last = Path.GetFileName(parentDirectory);
+            } while (last != "CSharp-TzipiAndMiri");
+
             string file_path = Path.Combine(parentDirectory, "xml", "sales.xml");
             using (FileStream fs = new FileStream(file_path, FileMode.OpenOrCreate, FileAccess.ReadWrite))
             {
@@ -163,9 +169,10 @@ internal class SaleImplementation : Isale
     public List<Sale> GetSalesList()
     {
         XElement xml;
-        string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-        string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
-        string path = Path.Combine(parentDirectory, "xml", "sales.xml");
+        //string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
+        //string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+        //string path = Path.Combine(parentDirectory, "xml", "sales.xml");
+        string path = @"Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\xml\sales.xml";
         xml = XElement.Load(path);
         return (xml.Elements("Sale")
             .Select(x => new Sale

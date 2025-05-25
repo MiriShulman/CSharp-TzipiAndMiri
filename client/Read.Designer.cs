@@ -31,39 +31,53 @@
             id = new Label();
             enterId = new TextBox();
             find = new Button();
+            insert_me = new Label();
             SuspendLayout();
             // 
             // id
             // 
             id.AutoSize = true;
-            id.Location = new Point(590, 73);
+            id.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            id.Location = new Point(411, 89);
             id.Name = "id";
-            id.Size = new Size(22, 20);
+            id.Size = new Size(36, 32);
             id.TabIndex = 0;
             id.Text = "id";
             // 
             // enterId
             // 
-            enterId.Location = new Point(552, 112);
+            enterId.Location = new Point(336, 139);
             enterId.Name = "enterId";
-            enterId.Size = new Size(125, 27);
+            enterId.Size = new Size(171, 27);
             enterId.TabIndex = 1;
+            enterId.TextChanged += enterId_TextChanged;
             // 
             // find
             // 
-            find.Location = new Point(565, 167);
+            find.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            find.Location = new Point(346, 233);
             find.Name = "find";
-            find.Size = new Size(94, 29);
+            find.Size = new Size(140, 56);
             find.TabIndex = 2;
             find.Text = "find";
             find.UseVisualStyleBackColor = true;
             find.Click += find_Click;
             // 
+            // insert_me
+            // 
+            insert_me.AutoSize = true;
+            insert_me.Location = new Point(336, 341);
+            insert_me.Name = "insert_me";
+            insert_me.Size = new Size(0, 20);
+            insert_me.TabIndex = 3;
+            // 
             // Read
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightCyan;
             ClientSize = new Size(800, 450);
+            Controls.Add(insert_me);
             Controls.Add(find);
             Controls.Add(enterId);
             Controls.Add(id);
@@ -78,5 +92,6 @@
         private Label id;
         private TextBox enterId;
         private Button find;
+        private Label insert_me;
     }
 }

@@ -15,6 +15,17 @@ namespace client
         public home()
         {
             InitializeComponent();
+            string parentDirectory = System.IO.Path.GetFullPath("Resources");
+            string last = Path.GetFileName(parentDirectory);
+            do
+            {
+                parentDirectory = Directory.GetParent(parentDirectory).FullName; // מקבל את התיקייה ההורה
+                last = Path.GetFileName(parentDirectory);
+            } while (last != "client");
+
+            //string path = Path.Combine(parentDirectory, "xml", "products.xml");
+            string picture = Path.Combine(parentDirectory, "Resources", "צילום מסך 2025-05-25 011956.jpg"+"");
+            pictureBox1.Image = Image.FromFile(picture);
         }
 
         private void buttonAdmin_Click(object sender, EventArgs e)
@@ -25,8 +36,18 @@ namespace client
 
         private void buttonSaleMan_Click(object sender, EventArgs e)
         {
-            saleMan s = new saleMan();
-            s.Show();
+            isPreferedCustomer i = new isPreferedCustomer();
+            i.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void home_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
