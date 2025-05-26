@@ -24,7 +24,7 @@ namespace client
             InitializeComponent();
         }
 
-        private static IBL s_Ibl;
+        private static IBL s_Ibl = BlApi.Factory.Get();
 
         private void del_Click(object sender, EventArgs e)
         {

@@ -23,7 +23,6 @@ internal class SaleImplementation : Isale
     private const string BEGINSALE = "beginSale";
     private const string ENDSALE = "endSale";
 
-
     public int Create(Sale item)
     {
         try
@@ -36,7 +35,7 @@ internal class SaleImplementation : Isale
             string last = Path.GetFileName(parentDirectory);
             do
             {
-                parentDirectory = Directory.GetParent(parentDirectory).FullName; // מקבל את התיקייה ההורה
+                parentDirectory = Directory.GetParent(parentDirectory).FullName;
                 last = Path.GetFileName(parentDirectory);
             } while (last != "CSharp-TzipiAndMiri");
 
@@ -76,8 +75,14 @@ internal class SaleImplementation : Isale
     public void Delete(int id)
     {
         XElement xml;
-        string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-        string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+        string parentDirectory = System.IO.Path.GetFullPath("SaleImplementation.cs");
+        string last = Path.GetFileName(parentDirectory);
+        do
+        {
+            parentDirectory = Directory.GetParent(parentDirectory).FullName;
+            last = Path.GetFileName(parentDirectory);
+        } while (last != "CSharp-TzipiAndMiri");
+
         string path = Path.Combine(parentDirectory, "xml", "sales.xml");
         xml = XElement.Load(path);
         String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
@@ -92,9 +97,15 @@ internal class SaleImplementation : Isale
         try
         {
             XElement xml;
-            string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-            string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
-            string path = Path.Combine(parentDirectory, "xml", "products.xml");
+            string parentDirectory = System.IO.Path.GetFullPath("SaleImplementation.cs");
+            string last = Path.GetFileName(parentDirectory);
+            do
+            {
+                parentDirectory = Directory.GetParent(parentDirectory).FullName;
+                last = Path.GetFileName(parentDirectory);
+            } while (last != "CSharp-TzipiAndMiri");
+
+            string path = Path.Combine(parentDirectory, "xml", "sales.xml");
             xml = XElement.Load(path);
             String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
             String method = MethodBase.GetCurrentMethod().Name;
@@ -154,14 +165,21 @@ internal class SaleImplementation : Isale
     public void Update(Sale item)
     {
         XElement xml;
-        string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-        string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+        string parentDirectory = System.IO.Path.GetFullPath("SaleImplementation.cs");
+        string last = Path.GetFileName(parentDirectory);
+        do
+        {
+            parentDirectory = Directory.GetParent(parentDirectory).FullName;
+            last = Path.GetFileName(parentDirectory);
+        } while (last != "CSharp-TzipiAndMiri");
+
         string path = Path.Combine(parentDirectory, "xml", "sales.xml");
         xml = XElement.Load(path);
         String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;
         String method = MethodBase.GetCurrentMethod().Name;
         Tools.LogManager.WriteToLog(progName, method, "begin");
         Delete(item.id);
+        xml = XElement.Load(path);
         xml.Add(CastSaleToXElement(item));
         xml.Save(path);
         Tools.LogManager.WriteToLog(progName, method, "end");
@@ -169,10 +187,15 @@ internal class SaleImplementation : Isale
     public List<Sale> GetSalesList()
     {
         XElement xml;
-        //string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-        //string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
-        //string path = Path.Combine(parentDirectory, "xml", "sales.xml");
-        string path = @"Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\xml\sales.xml";
+        string parentDirectory = System.IO.Path.GetFullPath("SaleImplementation.cs");
+        string last = Path.GetFileName(parentDirectory);
+        do
+        {
+            parentDirectory = Directory.GetParent(parentDirectory).FullName;
+            last = Path.GetFileName(parentDirectory);
+        } while (last != "CSharp-TzipiAndMiri");
+
+        string path = Path.Combine(parentDirectory, "xml", "sales.xml");
         xml = XElement.Load(path);
         return (xml.Elements("Sale")
             .Select(x => new Sale

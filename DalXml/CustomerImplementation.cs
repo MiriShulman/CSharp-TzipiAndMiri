@@ -73,8 +73,13 @@ internal class CustomerImplementation: Icustomer
 
         XmlSerializer serializer = new XmlSerializer(typeof(List<Customer>), new XmlRootAttribute("ArrayOfCustomers"));
 
-        string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-        string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+        string parentDirectory = System.IO.Path.GetFullPath("customers.xml");
+        string last = Path.GetFileName(parentDirectory);
+        do
+        {
+            parentDirectory = Directory.GetParent(parentDirectory).FullName;
+            last = Path.GetFileName(parentDirectory);
+        } while (last != "CSharp-TzipiAndMiri");
         string file_path = Path.Combine(parentDirectory, "xml", "customers.xml");
 
         Customer c = Read(id);
@@ -158,8 +163,14 @@ internal class CustomerImplementation: Icustomer
     {
         XmlSerializer serializer = new XmlSerializer(typeof(List<Customer>), new XmlRootAttribute("ArrayOfCustomers"));
 
-        string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-        string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+        string parentDirectory = System.IO.Path.GetFullPath("customers.xml");
+        string last = Path.GetFileName(parentDirectory);
+        do
+        {
+            parentDirectory = Directory.GetParent(parentDirectory).FullName;
+            last = Path.GetFileName(parentDirectory);
+        } while (last != "CSharp-TzipiAndMiri");
+
         string file_path = Path.Combine(parentDirectory, "xml", "customers.xml");
 
         String progName = MethodBase.GetCurrentMethod().DeclaringType.FullName;

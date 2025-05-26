@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sale>
     <code>20</code>
@@ -8,24 +8,6 @@
     <isNeedClub>true</isNeedClub>
     <beginSale>2025-05-22T00:32:34.223748+03:00</beginSale>
     <endSale>2025-05-29T00:32:34.2285293+03:00</endSale>
-  </Sale>
-  <Sale>
-    <code>56</code>
-    <id>109</id>
-    <minimumAmount>2</minimumAmount>
-    <sum>220</sum>
-    <isNeedClub>true</isNeedClub>
-    <beginSale>2025-05-24T23:17:26.5848014+03:00</beginSale>
-    <endSale>2025-05-31T23:17:26.5848246+03:00</endSale>
-  </Sale>
-  <Sale>
-    <code>43</code>
-    <id>110</id>
-    <minimumAmount>1</minimumAmount>
-    <sum>90</sum>
-    <isNeedClub>false</isNeedClub>
-    <beginSale>2025-05-24T23:17:26.7696124+03:00</beginSale>
-    <endSale>2025-06-24T23:17:26.7696147+03:00</endSale>
   </Sale>
   <Sale>
     <code>87</code>
@@ -53,5 +35,23 @@
     <isNeedClub>true</isNeedClub>
     <beginSale>2025-05-24T23:18:12.6686971+03:00</beginSale>
     <endSale>2025-06-24T23:18:12.6724528+03:00</endSale>
+  </Sale>
+  <Sale>
+    <code>525</code>
+    <id>114</id>
+    <minimumAmount>1</minimumAmount>
+    <sum>100</sum>
+    <isNeedClub>false</isNeedClub>
+    <beginSale>2025-05-26T17:06:01.5831296+03:00</beginSale>
+    <endSale>2025-05-30T17:06:01.575</endSale>
+  </Sale>
+  <Sale>
+    <code>43</code>
+    <id>110</id>
+    <minimumAmount>2</minimumAmount>
+    <sum>100</sum>
+    <isNeedClub>false</isNeedClub>
+    <beginSale>2025-05-26T17:48:54.7884256+03:00</beginSale>
+    <endSale>2025-05-30T17:48:54.782</endSale>
   </Sale>
 </ArrayOfSales>

@@ -34,9 +34,9 @@ internal class ImplementationSale : ISale
         {
             try
             {
-                return _dal.Sale.ReadAll(p => filter(p.CastSale()))
-                .Select(p => p.CastSale()).ToList();
-            }
+            Func<DO.Sale, bool>? filterDO = filter == null ? null : (s => filter(s.CastSale()));
+            return [.. _dal.Sale.ReadAll(filterDO).Select(s => s!.CastSale())];
+        }
             catch(Exception e) { throw e ; }
 
         }

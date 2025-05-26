@@ -10,6 +10,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
+//using static BO.
+
+using BllImplementation;
+
 
 namespace client
 {
@@ -22,28 +26,8 @@ namespace client
             funcName = func;
             InitializeComponent();
         }
-        private static ISale sale;
-        private void sendIt_Click(object sender, EventArgs e, object isNeedClubSale)
-        {
-            int code = int.Parse(fillSaleCode.Text);
-            int id = int.Parse(fillIdSale.Text);
-            int minimumAmount = (int)fillMinimumAmountSale.Value;
-            double sum = (double)fillSumSale.Value;
-            DateTime beginSale = fillBeginSale.Value;
-            DateTime endSale = fillEndSale.Value;
-            Sale s = new Sale(code, id, minimumAmount, sum, isNeedClubTemp, beginSale, endSale);
-            switch (funcName)
-            {
-                case "create":
-                    sale.Create(s);
-                    break;
-                default:
-                    sale.Update(s);
-                    break;
-            }
-
-
-        }
+        //private DalApi.IDal _dal = DalApi.Factory.Get;
+        private static IBL s_Ibl = BlApi.Factory.Get();
 
         private void isNeedClub_CheckedChanged(object sender, EventArgs e)
         {
@@ -60,7 +44,27 @@ namespace client
 
         private void sendItSale_Click(object sender, EventArgs e)
         {
-
+            int code = int.Parse(fillSaleCode.Text);
+            int id = int.Parse(fillIdSale.Text);
+            int minimumAmount = (int)fillMinimumAmountSale.Value;
+            double sum = (double)fillSumSale.Value;
+            DateTime beginSale = fillBeginSale.Value;
+            DateTime endSale = fillEndSale.Value;
+            Sale s = new Sale(code, id, minimumAmount, sum, isNeedClubTemp, beginSale, endSale);
+            switch (funcName)
+            {
+                case "create":
+                    s_Ibl.Sale.Create(s);
+                    break;
+                default:
+                    s_Ibl.Sale.Update(s);
+                    break;
+            }
         }
+
+        //private void sendIt_Click(object sender, EventArgs e)
+        //{
+
+        //}
     }
 }

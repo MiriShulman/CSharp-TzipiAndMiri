@@ -17,7 +17,8 @@ namespace client
     {
         string funcName;
 
-        private static ICustomer customer;
+        private static IBL s_Ibl = BlApi.Factory.Get();
+        //private static ImplementationCustomer customer = new ImplementationCustomer();
         public CreateOrUpdateCustomer(string func)
         {
             funcName = func;
@@ -35,14 +36,14 @@ namespace client
             int id = int.Parse(fillCustomerId.Text);
             string address = fillAddressCustomer.Text;
             string phone = fillPhoneCustomer.Text;
-            Customer p = new Customer(id, name, address, phone);
+            Customer c = new Customer(id, name, address, phone);
             switch (funcName)
             {
                 case "create":
-                    customer.Create(p);
+                    s_Ibl.Customer.Create(c);
                     break;
                 default:
-                    customer.Update(p);
+                    s_Ibl.Customer.Update(c);
                     break;
             }
         }

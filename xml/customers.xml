@@ -26,14 +26,8 @@
   </Customer>
   <Customer>
     <id>519</id>
-    <name>djm</name>
-    <address>Netivot Hamishpat</address>
-    <phone>0556726659</phone>
-  </Customer>
-  <Customer>
-    <id>520</id>
-    <name>yup</name>
-    <address>Netivot Hamishpat</address>
-    <phone>0556718372</phone>
+    <name>Tzipi</name>
+    <address>Sdey Hemed</address>
+    <phone>0527612265</phone>
   </Customer>
 </ArrayOfCustomers>

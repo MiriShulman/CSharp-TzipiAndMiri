@@ -49,10 +49,9 @@
             // 
             // fillIdSale
             // 
-            fillIdSale.Location = new Point(432, 72);
-            fillIdSale.Margin = new Padding(3, 2, 3, 2);
+            fillIdSale.Location = new Point(494, 96);
             fillIdSale.Name = "fillIdSale";
-            fillIdSale.Size = new Size(110, 23);
+            fillIdSale.Size = new Size(125, 27);
             fillIdSale.TabIndex = 14;
             // 
             // saleId
@@ -60,18 +59,17 @@
             saleId.AutoSize = true;
             saleId.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             saleId.ForeColor = Color.IndianRed;
-            saleId.Location = new Point(469, 45);
+            saleId.Location = new Point(536, 60);
             saleId.Name = "saleId";
-            saleId.Size = new Size(22, 20);
+            saleId.Size = new Size(29, 25);
             saleId.TabIndex = 13;
             saleId.Text = "id";
             // 
             // fillSaleCode
             // 
-            fillSaleCode.Location = new Point(568, 72);
-            fillSaleCode.Margin = new Padding(3, 2, 3, 2);
+            fillSaleCode.Location = new Point(649, 96);
             fillSaleCode.Name = "fillSaleCode";
-            fillSaleCode.Size = new Size(110, 23);
+            fillSaleCode.Size = new Size(125, 27);
             fillSaleCode.TabIndex = 16;
             // 
             // saleCode
@@ -79,9 +77,9 @@
             saleCode.AutoSize = true;
             saleCode.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             saleCode.ForeColor = Color.IndianRed;
-            saleCode.Location = new Point(605, 45);
+            saleCode.Location = new Point(691, 60);
             saleCode.Name = "saleCode";
-            saleCode.Size = new Size(42, 20);
+            saleCode.Size = new Size(55, 25);
             saleCode.TabIndex = 15;
             saleCode.Text = "code";
             // 
@@ -90,26 +88,24 @@
             minimumAmountSale.AutoSize = true;
             minimumAmountSale.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             minimumAmountSale.ForeColor = Color.IndianRed;
-            minimumAmountSale.Location = new Point(270, 45);
+            minimumAmountSale.Location = new Point(309, 60);
             minimumAmountSale.Name = "minimumAmountSale";
-            minimumAmountSale.Size = new Size(136, 20);
+            minimumAmountSale.Size = new Size(172, 25);
             minimumAmountSale.TabIndex = 17;
             minimumAmountSale.Text = "minimum amount";
             // 
             // fillMinimumAmountSale
             // 
-            fillMinimumAmountSale.Location = new Point(281, 72);
-            fillMinimumAmountSale.Margin = new Padding(3, 2, 3, 2);
+            fillMinimumAmountSale.Location = new Point(321, 96);
             fillMinimumAmountSale.Name = "fillMinimumAmountSale";
-            fillMinimumAmountSale.Size = new Size(131, 23);
+            fillMinimumAmountSale.Size = new Size(150, 27);
             fillMinimumAmountSale.TabIndex = 18;
             // 
             // fillSumSale
             // 
-            fillSumSale.Location = new Point(122, 72);
-            fillSumSale.Margin = new Padding(3, 2, 3, 2);
+            fillSumSale.Location = new Point(139, 96);
             fillSumSale.Name = "fillSumSale";
-            fillSumSale.Size = new Size(131, 23);
+            fillSumSale.Size = new Size(150, 27);
             fillSumSale.TabIndex = 20;
             // 
             // sumSale
@@ -117,18 +113,18 @@
             sumSale.AutoSize = true;
             sumSale.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             sumSale.ForeColor = Color.IndianRed;
-            sumSale.Location = new Point(166, 45);
+            sumSale.Location = new Point(190, 60);
             sumSale.Name = "sumSale";
-            sumSale.Size = new Size(39, 20);
+            sumSale.Size = new Size(49, 25);
             sumSale.TabIndex = 19;
             sumSale.Text = "sum";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(586, 117);
+            label1.Location = new Point(670, 156);
             label1.Name = "label1";
-            label1.Size = new Size(0, 15);
+            label1.Size = new Size(0, 20);
             label1.TabIndex = 21;
             // 
             // isNeedClub
@@ -136,10 +132,9 @@
             isNeedClub.AutoSize = true;
             isNeedClub.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             isNeedClub.ForeColor = Color.IndianRed;
-            isNeedClub.Location = new Point(526, 142);
-            isNeedClub.Margin = new Padding(3, 2, 3, 2);
+            isNeedClub.Location = new Point(601, 189);
             isNeedClub.Name = "isNeedClub";
-            isNeedClub.Size = new Size(116, 24);
+            isNeedClub.Size = new Size(146, 29);
             isNeedClub.TabIndex = 22;
             isNeedClub.TabStop = true;
             isNeedClub.Text = "is need club?";
@@ -148,18 +143,16 @@
             // 
             // fillBeginSale
             // 
-            fillBeginSale.Location = new Point(292, 175);
-            fillBeginSale.Margin = new Padding(3, 2, 3, 2);
+            fillBeginSale.Location = new Point(334, 233);
             fillBeginSale.Name = "fillBeginSale";
-            fillBeginSale.Size = new Size(219, 23);
+            fillBeginSale.Size = new Size(250, 27);
             fillBeginSale.TabIndex = 23;
             // 
             // fillEndSale
             // 
-            fillEndSale.Location = new Point(34, 175);
-            fillEndSale.Margin = new Padding(3, 2, 3, 2);
+            fillEndSale.Location = new Point(39, 233);
             fillEndSale.Name = "fillEndSale";
-            fillEndSale.Size = new Size(219, 23);
+            fillEndSale.Size = new Size(250, 27);
             fillEndSale.TabIndex = 24;
             // 
             // beginSale
@@ -167,9 +160,9 @@
             beginSale.AutoSize = true;
             beginSale.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             beginSale.ForeColor = Color.IndianRed;
-            beginSale.Location = new Point(363, 144);
+            beginSale.Location = new Point(415, 192);
             beginSale.Name = "beginSale";
-            beginSale.Size = new Size(79, 20);
+            beginSale.Size = new Size(101, 25);
             beginSale.TabIndex = 25;
             beginSale.Text = "begin sale";
             // 
@@ -178,9 +171,9 @@
             endSale.AutoSize = true;
             endSale.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             endSale.ForeColor = Color.IndianRed;
-            endSale.Location = new Point(104, 146);
+            endSale.Location = new Point(119, 195);
             endSale.Name = "endSale";
-            endSale.Size = new Size(66, 20);
+            endSale.Size = new Size(84, 25);
             endSale.TabIndex = 26;
             endSale.Text = "end sale";
             // 
@@ -188,10 +181,9 @@
             // 
             sendItSale.Font = new Font("Showcard Gothic", 15F, FontStyle.Bold);
             sendItSale.ForeColor = Color.DarkRed;
-            sendItSale.Location = new Point(281, 230);
-            sendItSale.Margin = new Padding(3, 2, 3, 2);
+            sendItSale.Location = new Point(321, 307);
             sendItSale.Name = "sendItSale";
-            sendItSale.Size = new Size(122, 42);
+            sendItSale.Size = new Size(139, 56);
             sendItSale.TabIndex = 27;
             sendItSale.Text = "send it";
             sendItSale.UseVisualStyleBackColor = true;
@@ -199,10 +191,10 @@
             // 
             // CreateOrUpdateSale
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LavenderBlush;
-            ClientSize = new Size(700, 338);
+            ClientSize = new Size(800, 451);
             Controls.Add(sendItSale);
             Controls.Add(endSale);
             Controls.Add(beginSale);
@@ -218,7 +210,6 @@
             Controls.Add(saleCode);
             Controls.Add(fillIdSale);
             Controls.Add(saleId);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "CreateOrUpdateSale";
             Text = "Create or update sale";
             ((System.ComponentModel.ISupportInitialize)fillMinimumAmountSale).EndInit();

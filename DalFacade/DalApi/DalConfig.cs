@@ -9,7 +9,16 @@ static class DalConfig
     static DalConfig()
     {
         Console.WriteLine("why?");
-        XElement dalConfig = XElement.Load(@"Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\xml\dal-config.xml") ??
+        string parentDirectory = System.IO.Path.GetFullPath("dal-config.xml");
+        string last = Path.GetFileName(parentDirectory);
+        do
+        {
+            parentDirectory = Directory.GetParent(parentDirectory).FullName;
+            last = Path.GetFileName(parentDirectory);
+        } while (last != "CSharp-TzipiAndMiri");
+
+        string file_path = Path.Combine(parentDirectory, "xml", "dal-config.xml");
+        XElement dalConfig = XElement.Load(file_path) ??
             throw new DalConfigException("dal-config.xml file is not found");
         Console.WriteLine("why?");
         s_dalName = dalConfig.Element("dal")?.Value ?? throw new DalConfigException("<dal> element is missing");

@@ -23,7 +23,6 @@ namespace client
                 last = Path.GetFileName(parentDirectory);
             } while (last != "client");
 
-            //string path = Path.Combine(parentDirectory, "xml", "products.xml");
             string picture = Path.Combine(parentDirectory, "Resources", "צילום מסך 2025-05-25 011956.jpg"+"");
             pictureBox1.Image = Image.FromFile(picture);
         }

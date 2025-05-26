@@ -38,8 +38,8 @@ internal class ImplementationProduct : IProduct
         {
             try
             {
-            Func<DO.Product, bool>? filterDO = filter == null ? null : (p => filter(p.CastProduct()));
-            return [.. _dal.Product.ReadAll(filterDO).Select(p => p!.CastProduct())];
+                Func<DO.Product, bool>? filterDO = filter == null ? null : (p => filter(p.CastProduct()));
+                return [.. _dal.Product.ReadAll(filterDO).Select(p => p!.CastProduct())];
             //return _dal.Product.ReadAll(p => filter(p.CastProduct()))
             //        .Select (p => p.CastProduct()).ToList();
             }

@@ -33,21 +33,15 @@ public class ProductImplementation : Iproduct
             List<Product>? products = new List<Product>();
             XmlSerializer serializer = new XmlSerializer(typeof(List<Product>), new XmlRootAttribute("ArrayOfProducts"));
 
-            //string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-            //string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
-            //string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-            //string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
             string parentDirectory = System.IO.Path.GetFullPath("ProductImplementation.cs");
             string last = Path.GetFileName(parentDirectory);
             do
             {
-                parentDirectory = Directory.GetParent(parentDirectory).FullName; // מקבל את התיקייה ההורה
+                parentDirectory = Directory.GetParent(parentDirectory).FullName;
                 last = Path.GetFileName(parentDirectory);
             } while (last != "CSharp-TzipiAndMiri");
 
-            //string path = Path.Combine(parentDirectory, "xml", "products.xml");
             string file_path = Path.Combine(parentDirectory, "xml", "products.xml");
-            //string file_path = Path.Combine(parentDirectory, "xml", "products.xml");
             using (FileStream fs = new FileStream(file_path, FileMode.OpenOrCreate, FileAccess.ReadWrite))
             {
                 try
@@ -89,20 +83,14 @@ public class ProductImplementation : Iproduct
 
         XmlSerializer serializer = new XmlSerializer(typeof(List<Product>), new XmlRootAttribute("ArrayOfProducts"));
 
-        //string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-        //string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
-        //string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-        //string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
         string parentDirectory = System.IO.Path.GetFullPath("ProductImplementation.cs");
         string last = Path.GetFileName(parentDirectory);
         do
         {
-            parentDirectory = Directory.GetParent(parentDirectory).FullName; // מקבל את התיקייה ההורה
+            parentDirectory = Directory.GetParent(parentDirectory).FullName;
             last = Path.GetFileName(parentDirectory);
         } while (last != "CSharp-TzipiAndMiri");
 
-        //string path = Path.Combine(parentDirectory, "xml", "products.xml");
-        //string file_path = Path.Combine(parentDirectory, "xml", "products.xml");
         string file_path = Path.Combine(parentDirectory, "xml", "products.xml");
 
         Product p = Read(id);
@@ -126,7 +114,7 @@ public class ProductImplementation : Iproduct
             
         using (FileStream fsWrite = new FileStream(file_path, FileMode.Create, FileAccess.Write))
         {
-            serializer.Serialize(fsWrite, products); // כותב את הרשימה המעודכנת
+            serializer.Serialize(fsWrite, products);
         }
         Tools.LogManager.WriteToLog(progName, method, "end");
 
@@ -212,7 +200,7 @@ public class ProductImplementation : Iproduct
 
         using (FileStream fsWrite = new FileStream(file_path, FileMode.Create, FileAccess.Write))
         {
-            serializer.Serialize(fsWrite, products); // כותב את הרשימה המעודכנת
+            serializer.Serialize(fsWrite, products);
         }
         Tools.LogManager.WriteToLog(progName, method, "end");
     }
@@ -232,30 +220,22 @@ public class ProductImplementation : Iproduct
         }
         catch (Exception ex)
         {
-            // הדפס את השגיאה או נהל אותה בהתאם
             Console.WriteLine($"Error: {ex.Message}");
-            throw; // או נהל את השגיאה בהתאם לצורך
+            throw;
         }
     }
 
     public List<Product> GetProductList()
     {
-        //LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "start create product");
-        //List<Product>? sales = new List<Product>();
-        //XmlSerializer serializer = new XmlSerializer(typeof(List<Product>), new XmlRootAttribute("ArrayOfProducts"));
-        //string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-        //string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
-        //string path = @"Z:\B\קלרברג ציפורה\c#\CSharp-TzipiAndMiri\xml\products.xml";
         string parentDirectory = System.IO.Path.GetFullPath("ProductImplementation.cs");
         string last = Path.GetFileName(parentDirectory);
         do
         {
-            parentDirectory = Directory.GetParent(parentDirectory).FullName; // מקבל את התיקייה ההורה
+            parentDirectory = Directory.GetParent(parentDirectory).FullName;
             last = Path.GetFileName(parentDirectory);
         } while (last != "CSharp-TzipiAndMiri");
 
         string path = Path.Combine(parentDirectory, "xml", "products.xml");
-        //string path = Path.Combine(parentDirectory, "xml", "customers.xml");
         return LoadProductsFromXml(path);
     }
     

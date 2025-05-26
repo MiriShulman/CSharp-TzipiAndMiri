@@ -39,8 +39,8 @@ internal class ImplementationCustomer : ICustomer
     {
         try
         {
-            return _dal.Customer.ReadAll(c => filter(c.CastCustomer()))
-                .Select(c => c.CastCustomer()).ToList();
+            Func<DO.Customer, bool>? filterDO = filter == null ? null : (c => filter(c.CastCustomer()));
+            return [.. _dal.Customer.ReadAll(filterDO).Select(c => c!.CastCustomer())];
         }
         catch (Exception ex)
         {

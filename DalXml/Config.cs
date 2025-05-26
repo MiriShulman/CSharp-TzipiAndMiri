@@ -20,8 +20,15 @@ namespace Dal
             get
             {
                 XmlSerializer serializer = new XmlSerializer(typeof(Config), new XmlRootAttribute("config"));
-                string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-                string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+                
+                string parentDirectory = System.IO.Path.GetFullPath(ConfigFileName);
+                string last = Path.GetFileName(parentDirectory);
+                do
+                {
+                    parentDirectory = Directory.GetParent(parentDirectory).FullName;
+                    last = Path.GetFileName(parentDirectory);
+                } while (last != "CSharp-TzipiAndMiri");
+                
                 string file_path = Path.Combine(parentDirectory, "xml", ConfigFileName);
 
                 XElement xml = XElement.Load(file_path);
@@ -39,8 +46,14 @@ namespace Dal
         {
             get {
                 XmlSerializer serializer = new XmlSerializer(typeof(Config), new XmlRootAttribute("config"));
-                string currentDirectory = Directory.GetCurrentDirectory(); // מקבל את התיקייה הנוכחית
-                string parentDirectory = Directory.GetParent(currentDirectory).FullName; // מקבל את התיקייה ההורה
+                string parentDirectory = System.IO.Path.GetFullPath(ConfigFileName);
+                string last = Path.GetFileName(parentDirectory);
+                do
+                {
+                    parentDirectory = Directory.GetParent(parentDirectory).FullName;
+                    last = Path.GetFileName(parentDirectory);
+                } while (last != "CSharp-TzipiAndMiri");
+
                 string file_path = Path.Combine(parentDirectory, "xml", ConfigFileName);
 
                 XElement xml = XElement.Load(file_path);

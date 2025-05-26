@@ -14,30 +14,37 @@ namespace client
 {
     public partial class CreateOrUpdateProduct : Form
     {
+        private static IBL s_Ibl = BlApi.Factory.Get();
+
         string funcName;
         public CreateOrUpdateProduct(string func)
         {
             funcName = func;
             InitializeComponent();
+            var categories = Enum.GetValues(typeof(Category)).Cast<Category>().Select(p => p.ToString()).ToList();
+
+            // הגדרת המקור של הקומבובוקס
+            chooseCategory.DataSource = categories;
         }
-        private static IProduct prod;
+        //private static IProduct prod;
 
         private void sendIt_Click(object sender, EventArgs e)
         {
             string name = insertName.Text;
             int id = int.Parse(insertId.Text);
             int amount = (int)insertAmount.Value;
-            double price = (double)insertAmount.Value;
-            string str = chooseCategory.Text;
-            Category category = (Category)chooseCategory.SelectedItem;
-            Product p = new Product(id, name, price, amount, category);
+            double price = (double)insertPrice.Value;
+            string selectedCategoryName = chooseCategory.SelectedItem.ToString();
+            Enum.TryParse<BO.Category>(selectedCategoryName, out BO.Category selectedCategory);
+
+            Product p = new Product(id, name, price, amount, selectedCategory);
             switch (funcName)
             {
                 case "create":
-                    prod.Create(p);
+                    s_Ibl.Product.Create(p);
                     break;
                 default:
-                    prod.Update(p);
+                    s_Ibl.Product.Update(p);
                     break;
             }
         }
